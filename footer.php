@@ -78,9 +78,9 @@
 <!-- End Footer Area -->
 
 <!-- Start Copy Right Area -->
-<div class="copy-right-area bg-color-edf1fe">
+<div class="copy-right-area bg-dark">
     <div class="container">
-        <p>
+        <p class="text-white">
             Copyright @2023 CJRush.
 
         </p>
