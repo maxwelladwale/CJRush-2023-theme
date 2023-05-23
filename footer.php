@@ -78,11 +78,11 @@
 <!-- End Footer Area -->
 
 <!-- Start Copy Right Area -->
-<div class="copy-right-area bg-color-edf1fe">
+<div class="copy-right-area bg-dark">
     <div class="container">
-        <p>
-            Copyright @2022 Inata. Designed By
-            <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+        <p class="text-white">
+            Copyright @2023 CJRush.
+
         </p>
     </div>
 </div>
