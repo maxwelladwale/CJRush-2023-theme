@@ -402,6 +402,36 @@ Section Title Area Style*/
   color: var(--white-color);
 }
 
+.cont{
+  margin-top: 3rem;
+}
+
+.revolving-img{
+  width: 20rem;
+  height: 20rem;
+}
+
+td{
+  width: 23rem;
+}
+
+td h4{
+  inline-size: 10rem;
+  text-align: center;
+  margin: 0 5rem;
+}
+
+td p{
+  inline-size: 13rem;
+  text-align: center;
+  margin: 0 3.5rem;
+  font-weight: 500;
+}
+
+td button{
+  margin: 0 3rem;
+}
+
 /*====================================================
 OTHERS STYLE AREA
 =====================================================*/
