@@ -83,6 +83,14 @@
                         </li>
                     </ul>
 
+                    <div class="others-options">
+                        <ul>
+                            <li>
+                                <a href="pricing-plan.html" class="default-btn">REQUEST A QUOTE</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </nav>
         </div>

@@ -1,14 +1,19 @@
 /*
 Counter Area Style
 ======================================================*/
+.counter-area {
+
+  background-color: #EFFFFD;
+}
 .counter-bg {
   background-image: url(../../images/counter-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  border-radius: var(--border-radius);
+  /* padding-right: 100px; */
 }
 
 .counter-bg.counter-bg-2 {
@@ -44,8 +49,14 @@ Counter Area Style
   border-right: 1px dashed var(--white-color);
 }
 
+.single-counter .count-title{
+  display: grid;
+  grid-template-rows: 80px 50px;
+  /* padding-left: 40px; */
+}
+
 .single-counter .count-title h2 {
-  font-size: 60px;
+  font-size: 55px;
   color: var(--white-color);
   margin-bottom: 0;
   line-height: 1;
@@ -56,7 +67,7 @@ Counter Area Style
   position: relative;
   top: 4px;
   margin-left: -10px;
-  font-size: 60px;
+  font-size: 55px;
   color: var(--white-color);
 }
 
@@ -81,6 +92,11 @@ Counter Area Style
   .single-counter .count-title h2 {
     margin-bottom: 10px;
   }
+  .single-counter .count-title{
+    display: grid;
+    grid-template-rows: 80px 50px;
+    padding-left: 0px;
+  }
 }
 
 /* Min width 768px to Max width 991px */
@@ -98,6 +114,11 @@ Counter Area Style
   .single-counter .count-title h2 {
     margin-bottom: 10px;
   }
+  .single-counter .count-title{
+    display: grid;
+    grid-template-rows: 80px 50px;
+    padding-left: 0px;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -111,6 +132,11 @@ Counter Area Style
   }
   .single-counter::before {
     display: none;
+  }
+  .single-counter .count-title{
+    display: grid;
+    grid-template-rows: 80px 50px;
+    /* padding-left: 40px; */
   }
 }
 /*# sourceMappingURL=counter.css.map */

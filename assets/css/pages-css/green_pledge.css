@@ -1,0 +1,22 @@
+.green-pledge-area{
+    background-color: #EFFFFD;
+}
+.green_pledge_img img{
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .green_pledge_img{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .green_pledge_text{
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .green_pledge_text p{
+        text-align: center;
+    } 
+
+}
