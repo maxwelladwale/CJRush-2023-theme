@@ -44,6 +44,7 @@ Every Pages Style Area
 @import url(../../assets/css/pages-css/promo-video.css);
 @import url(../../assets/css/pages-css/pricing.css);
 @import url(../../assets/css/pages-css/customer-reviews.css);
+@import url(../../assets/css/pages-css/green_pledge.css);
 @import url(../../assets/css/pages-css/integrations.css);
 @import url(../../assets/css/pages-css/faq.css);
 @import url(../../assets/css/pages-css/footer.css);
@@ -287,8 +288,9 @@ Bg-color Style*/
 /*
 Default Btn Area Style*/
 .default-btn {
-  font-size: 16px;
-  color: var(--white-color);
+  font-size: 18px;
+  color: var(--black-color);
+  font-weight: 600;
   line-height: 1;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -400,36 +402,6 @@ Section Title Area Style*/
 
 .section-title.white-title p {
   color: var(--white-color);
-}
-
-.cont{
-  margin-top: 3rem;
-}
-
-.revolving-img{
-  width: 20rem;
-  height: 20rem;
-}
-
-td{
-  width: 23rem;
-}
-
-td h4{
-  inline-size: 10rem;
-  text-align: center;
-  margin: 0 5rem;
-}
-
-td p{
-  inline-size: 13rem;
-  text-align: center;
-  margin: 0 3.5rem;
-  font-weight: 500;
-}
-
-td button{
-  margin: 0 3rem;
 }
 
 /*====================================================

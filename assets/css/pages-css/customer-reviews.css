@@ -54,7 +54,7 @@ Customer Reviews Area Style
 
 .single-customer-reviews .reviews-avatar {
   position: relative;
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 
 .single-customer-reviews .reviews-avatar img {
@@ -79,6 +79,8 @@ Customer Reviews Area Style
   position: relative;
   z-index: 1;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: grid;
+  grid-template-rows: 380px 130px;
 }
 
 .single-customer-reviews.single-customer-reviews-style-two::before {
@@ -143,5 +145,6 @@ Responsive Area Style
 .owl-carousel.owl-drag .owl-item{
   display: flex;
   flex: 1 0 auto;
+  justify-content: center;
 }
 /*# sourceMappingURL=customer-reviews.css.map */

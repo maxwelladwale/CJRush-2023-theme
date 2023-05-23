@@ -65,7 +65,7 @@ Partner Area Style
   background-color: #181F29;
   padding: 0 30px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   position: relative;
 }
 
