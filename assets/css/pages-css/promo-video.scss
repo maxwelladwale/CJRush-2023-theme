@@ -1,0 +1,113 @@
+/*
+Promo Video Area Style
+======================================================*/
+.promo-video-area {
+    position: relative;
+    .promo-vide-shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &.promo-video-area-style-two {
+        .promo-video-content {
+            max-width: 1800px;
+            margin: auto;
+            img {
+                border-radius: 0 100px 0 0 !important;
+            }
+            &::before {
+                border-radius: 0;
+                border-radius: 0 100px 0 0 !important;
+            }
+        }
+    }
+}
+.promo-bg {
+    border-top: 1px solid #e9e4f9;
+}
+.promo-video-content {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.0);
+        transition: var(--transition);
+        border-radius: 20px;
+    }
+    img {
+        border-radius: 20px;
+    }
+    .video-button {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        a {
+            i {
+                font-size: 100px;
+                color: var(--white-color);
+                background-color: var(--main-color);
+                line-height: 1;
+                border-radius: 50%;
+                border: 15px solid #845bf9;
+            }
+        }
+    }
+    &:hover{
+        &::before {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    &.promo-video-content-style-two {
+        img {
+            border-radius: 0;
+        }
+        &::before {
+            border-radius: 0;
+        }
+    }
+}
+
+/*
+Responsive Area Style
+======================================================*/
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .promo-video-content {
+        .video-button {
+            a {
+                i {
+                    font-size: 50px;
+                    border: 10px solid #845bf9;
+                }
+            }
+        }
+    }
+    .promo-video-area {
+        .promo-vide-shape {
+           display: none;
+        }
+    }
+    
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .promo-video-area {
+        .promo-vide-shape {
+           display: none;
+        }
+    }
+
+}

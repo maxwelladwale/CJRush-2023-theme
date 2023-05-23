@@ -1,0 +1,83 @@
+/*
+Features Area Style
+======================================================*/
+.secure-management-area {
+  position: relative;
+}
+
+.secure-management-area .secure-management-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.secure-management-content span {
+  font-size: 17px;
+  color: var(--main-color);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.secure-management-content h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.secure-management-content .default-btn {
+  margin-top: 15px;
+}
+
+.secure-management-bg {
+  border-top: 1px solid #e9e4f9;
+  padding-top: 70px;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .secure-management-bg {
+    padding-top: 50px;
+  }
+  .secure-management-img {
+    margin-bottom: 30px;
+  }
+  .secure-management-content span {
+    font-size: 16px;
+  }
+  .secure-management-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .secure-management-content .default-btn {
+    margin-top: 20px;
+  }
+  .secure-management-area .secure-management-shape {
+    display: none;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .secure-management-bg {
+    padding-top: 50px;
+  }
+  .secure-management-img {
+    margin-bottom: 30px;
+  }
+  .secure-management-content span {
+    font-size: 16px;
+  }
+  .secure-management-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .secure-management-content .default-btn {
+    margin-top: 20px;
+  }
+  .secure-management-area .secure-management-shape {
+    display: none;
+  }
+}
+/*# sourceMappingURL=secure-management.css.map */

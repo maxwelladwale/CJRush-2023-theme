@@ -1,0 +1,175 @@
+/*
+Features Area Style
+======================================================*/
+.mb-mince-30 {
+  bottom: -30px;
+  margin-bottom: 60px !important;
+}
+
+.saas-features-area-style-two {
+  position: relative;
+  z-index: 1;
+}
+
+.saas-features-area-style-two .single-saas-features {
+  background-color: var(--white-color);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  padding: 30px;
+  border-radius: 0 50px 0 0;
+  background-image: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+  z-index: 1;
+}
+
+.saas-features-area-style-two .single-saas-features::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/sass-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 0 50px 0 0;
+}
+
+.saas-features-area-style-two .single-saas-features i {
+  margin-left: 0;
+}
+
+.saas-features-area-style-two .single-saas-features i::after {
+  display: none;
+}
+
+.saas-features-area-style-two .single-saas-features:hover i {
+  color: #6a3fee;
+}
+
+.saas-features-area-style-two .single-saas-features:hover h3 {
+  color: var(--white-color);
+}
+
+.saas-features-area-style-two .single-saas-features:hover p {
+  color: var(--white-color);
+}
+
+.saas-features-area-style-two .single-saas-features:hover::before {
+  opacity: 1;
+}
+
+.saas-features-area-style-two .saas-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.single-saas-features {
+  margin-bottom: 30px;
+}
+
+.single-saas-features i {
+  font-size: 55px;
+  color: var(--main-color);
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-saas-features i::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 40px;
+  height: 40px;
+  background-color: #efeefc;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.single-saas-features h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-saas-features p {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-saas-features.single-saas-features-style-three {
+  background-color: var(--white-color);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  padding: 30px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-saas-features.single-saas-features-style-three i {
+  margin-left: 0;
+}
+
+.single-saas-features.single-saas-features-style-three i::after {
+  display: none;
+}
+
+.single-saas-features.single-saas-features-style-three:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .single-saas-features {
+    border: 1px solid #eee;
+    padding: 20px;
+  }
+  .single-saas-features.single-saas-features-style-three {
+    padding: 20px;
+  }
+  .saas-features-area.saas-features-area-style-two.pt-100.pb-70 {
+    padding-top: 0;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .saas-features-area.saas-features-area-style-two.pt-100.pb-70 {
+    padding-top: 0;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-saas-features.single-saas-features-style-three {
+    padding: 20px;
+  }
+  .single-saas-features.single-saas-features-style-three h3 {
+    font-size: 18px;
+  }
+}
+
+/* Max width 1500px */
+/*# sourceMappingURL=saas-features.css.map */

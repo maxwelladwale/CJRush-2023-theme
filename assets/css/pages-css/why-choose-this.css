@@ -1,0 +1,97 @@
+/*
+Advanced Analytics Area Style
+======================================================*/
+.why-choose-this-content span {
+  color: var(--main-color);
+  font-size: 17px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.why-choose-this-content h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.why-choose-this-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.why-choose-this-content ul li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 45px;
+}
+
+.why-choose-this-content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.why-choose-this-content ul li span {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  color: var(--white-color);
+}
+
+.why-choose-this-content ul li h3 {
+  font-size: 20px;
+}
+
+.why-choose-this-img {
+  text-align: center;
+}
+
+.why-choose-bg {
+  border-bottom: 1px solid #e9e4f9;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .why-choose-this-content {
+    margin-bottom: 30px;
+  }
+  .why-choose-this-content span {
+    font-size: 16px;
+  }
+  .why-choose-this-content h2 {
+    font-size: 28px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-this-content {
+    margin-bottom: 30px;
+  }
+  .why-choose-this-content span {
+    font-size: 16px;
+  }
+  .why-choose-this-content h2 {
+    font-size: 30px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .advanced-analytics-img-2 {
+    position: unset;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=why-choose-this.css.map */

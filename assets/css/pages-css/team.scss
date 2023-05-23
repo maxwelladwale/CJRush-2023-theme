@@ -1,0 +1,70 @@
+/*
+Team Area Style
+======================================================*/
+.single-team-member {
+	margin-bottom: 30px;
+	transition: var(--transition);
+	.team-img {
+		position: relative;
+		overflow: hidden;
+		ul {
+			position: absolute;
+			bottom: -150px;
+			left: 0;
+			right: 0;
+			line-height: 1;
+			background-color: rgba(117, 69, 255, 0.8);
+			padding: 70px 30px 20px 30px;
+			clip-path: polygon(0 0, 100% 50%, 100% 100%, 0% 100%);
+			transition: var(--transition);
+            text-align: center;
+			li {
+				display: inline-block;
+				margin: 0 5px;
+				a {
+					i {
+						font-size: 20px;
+						color: var(--white-color);
+						transition: var(--transition);
+						transition: var(--transition);
+					}
+					&:hover {
+						i {
+							transform: translateY(-2px);
+						}
+					}
+				}
+			}
+		}
+	}
+	.team-content {
+		margin-top: 25px;
+		h3 {
+			margin-bottom: 5px;
+            font-size: 22px;
+		}
+        p {
+            font-size: 17px;
+        }
+	}
+	&:hover {
+		transform: translateY(-5px);
+		.team-img {
+			ul {
+				bottom: -18px;
+			}
+		}
+	}
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) { 
+
+    .single-team-member .team-content{
+		text-align: center;
+		h3 {
+			font-size: 20px;
+		}
+	}
+
+}

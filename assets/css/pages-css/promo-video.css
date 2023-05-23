@@ -1,0 +1,111 @@
+/*
+Promo Video Area Style
+======================================================*/
+.promo-video-area {
+  position: relative;
+}
+
+.promo-video-area .promo-vide-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.promo-video-area.promo-video-area-style-two .promo-video-content {
+  max-width: 1800px;
+  margin: auto;
+}
+
+.promo-video-area.promo-video-area-style-two .promo-video-content img {
+  border-radius: 0 100px 0 0 !important;
+}
+
+.promo-video-area.promo-video-area-style-two .promo-video-content::before {
+  border-radius: 0;
+  border-radius: 0 100px 0 0 !important;
+}
+
+.promo-bg {
+  border-top: 1px solid #e9e4f9;
+}
+
+.promo-video-content {
+  position: relative;
+}
+
+.promo-video-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 20px;
+}
+
+.promo-video-content img {
+  border-radius: 20px;
+}
+
+.promo-video-content .video-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promo-video-content .video-button a i {
+  font-size: 100px;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  line-height: 1;
+  border-radius: 50%;
+  border: 15px solid #845bf9;
+}
+
+.promo-video-content:hover::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.promo-video-content.promo-video-content-style-two img {
+  border-radius: 0;
+}
+
+.promo-video-content.promo-video-content-style-two::before {
+  border-radius: 0;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .promo-video-content .video-button a i {
+    font-size: 50px;
+    border: 10px solid #845bf9;
+  }
+  .promo-video-area .promo-vide-shape {
+    display: none;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .promo-video-area .promo-vide-shape {
+    display: none;
+  }
+}
+/*# sourceMappingURL=promo-video.css.map */

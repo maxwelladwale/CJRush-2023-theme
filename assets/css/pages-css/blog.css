@@ -1,0 +1,116 @@
+/*
+Blog Area Style
+======================================================*/
+.single-blog {
+  margin-bottom: 30px;
+}
+
+.single-blog .tag {
+  color: var(--main-color);
+  margin-bottom: 10px;
+  display: block;
+  font-size: 15px;
+}
+
+.single-blog a img {
+  border-radius: 0 100px 0 0;
+  margin-bottom: 20px;
+}
+
+.single-blog ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.single-blog ul li {
+  display: inline-block;
+}
+
+.single-blog ul li a {
+  font-size: 15px;
+}
+
+.single-blog ul li a img {
+  border-radius: 50%;
+  position: relative;
+  top: 8px;
+  margin-right: 5px;
+}
+
+.single-blog ul li.date {
+  float: right;
+  position: relative;
+  top: 5px;
+  font-size: 15px;
+}
+
+.single-blog h3 {
+  font-size: 24px;
+}
+
+.single-blog h3 a {
+  color: var(--heading-color);
+}
+
+.blog-page-area .single-blog {
+  margin-bottom: 40px;
+}
+
+.blog-page-area .single-blog a img {
+  border-radius: 0;
+}
+
+.blog-page-area .single-blog p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-page-area .single-blog .default-btn {
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.blog-page-area .single-blog .default-btn:hover {
+  color: var(--white-color);
+}
+
+.blog-page-area .single-blog .default-btn:hover::before, .blog-page-area .single-blog .default-btn:hover::after {
+  background-color: var(--main-color);
+}
+
+.blog-page-area .single-blog ul li a img {
+  border-radius: 50%;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .single-blog h3 {
+    font-size: 20px;
+  }
+  .single-blog .tag {
+    font-size: 16px;
+  }
+  .single-blog ul li {
+    font-size: 16px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-blog h3 {
+    font-size: 22px;
+  }
+  .single-blog .tag {
+    font-size: 16px;
+  }
+  .single-blog ul li {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

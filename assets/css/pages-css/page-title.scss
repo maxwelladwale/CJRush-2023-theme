@@ -1,0 +1,151 @@
+/* 
+Page Title Area Style
+=====================================================*/ 
+.page-title-area {
+    background-color: #f4f7ff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+    z-index: 1;
+    overflow: hidden;
+	.page-title-content {
+		position: relative;
+		margin-top: -13px;
+        text-align: center;
+		h2 {
+			margin-bottom: 15px;
+			font-size: 50px;
+		}
+		ul {
+			padding-left: 0;
+			list-style-type: none;
+			margin-top: 10px;
+			margin-bottom: -5px;
+			li {
+				display: inline-block;
+				position: relative;
+				font-size: 16px;
+				padding-right: 15px;
+    			margin-left: 15px;
+				&::before {
+					content: "";
+					position: absolute;
+					top: 5px;
+					right: -3px;
+					background-color: var(--body-color);
+					width: 1px;
+					height: 15px;
+					transform: rotate(15deg)
+				}
+				&.active {
+					color: var(--main-color);
+				}
+				&:first-child {
+					margin-left: 0;
+				}
+				&:last-child {
+					padding-right: 0;
+					&::before {
+						display: none;
+					}
+				}
+				a {
+					color: var(--body-color);
+					&:hover {
+						color: var(--main-color);
+					}
+				}
+			}
+		}
+	}	
+    .page-title-shape {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) { 
+
+	.page-title-area {
+		padding-top: 70px;
+		padding-bottom: 70px;
+		.page-title-content {
+			margin-top: -10px;
+			text-align: center;
+			h2 {
+				font-size: 45px;
+				margin-bottom: 10px;
+			}
+			ul {
+				li {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	.page-title-area {
+		padding-top: 70px;
+		padding-bottom: 70px;
+		.page-title-content {
+			margin-top: -10px;
+			text-align: center;
+			h2 {
+				font-size: 45px;
+				margin-bottom: 10px;
+			}
+			ul {
+				li {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	
+}
+
+/* 
+Responsive Area Style
+=====================================================*/ 
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .page-title-area {
+		.page-title-shape {
+			display: none;
+		}
+		.page-title-content {
+			h2 {
+				font-size: 35px;
+			}
+		}
+	}
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.page-title-area {
+		.page-title-shape {
+			display: none;
+		}
+		.page-title-content {
+			h2 {
+				font-size: 35px;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,131 @@
+/*
+Customer Reviews Area Style
+======================================================*/
+.customer-reviews-area {
+    .owl-carousel .owl-item img {
+        width: auto;
+    }
+    .owl-theme {
+        .owl-dot {
+            span {
+                background-color: #bdc6d4;
+                width: 15px;
+                height: 15px;
+                transition: var(--transition);
+                margin: 0 10px;
+            }
+            &:hover {
+                span {
+                    background-color: var(--main-color);
+                }
+            }
+            &.active {
+                span {
+                    background-color: var(--main-color);
+                }
+            }
+        }
+    }
+}
+.single-customer-reviews {
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        line-height: 1;
+        margin-bottom: 20px;
+        li {
+            display: inline-block;
+            i {
+                color: #fdcb35;
+                font-size: 20px;
+            }
+        }
+    }
+    p {
+        margin-bottom: 30px;
+    }
+    .reviews-avatar {
+        position: relative;
+        padding-left: 80px;
+        img {
+            position: absolute;
+            top: -3px;
+            left: 0;
+            border-radius: 50%;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+    &.single-customer-reviews-style-two {
+        background-image: linear-gradient(to bottom right, #e2ebfe, #fce2f5);
+        border-radius: 0 100px 0 0;
+        position: relative;
+        z-index: 1;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../../images/reviews/reviews-card-bg.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            opacity: 0;
+            transition: var(--transition);
+            z-index: -1;
+            border-radius: 0 100px 0 0;
+        }
+    }
+    &.single-customer-reviews-three {
+        border-radius: 0;
+    }
+}
+.owl-item.active.center {
+    .single-customer-reviews-style-two {
+        &::before { 
+            opacity: 1;
+        }
+        p {
+            color: var(--white-color);
+        }
+        .reviews-avatar {
+            h3 {
+                color: var(--white-color);
+            }
+            span {
+                color: var(--white-color);
+            }
+        }
+    }
+}
+
+/*
+Responsive Area Style
+======================================================*/
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+    .single-customer-reviews {
+        padding: 20px;
+    }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-customer-reviews {
+        padding: 20px;
+    }
+}

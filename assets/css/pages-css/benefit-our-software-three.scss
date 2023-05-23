@@ -1,0 +1,150 @@
+.tab {
+    .tabs  {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+        border-bottom: 2px solid #dbdede;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        li {
+            display: inline-block;
+            padding-right: 50px;
+            padding-left: 50px;
+            cursor: pointer;
+            &.current {
+                i {
+                    color: var(--main-color);
+                }
+                h3 {
+                    color: var(--main-color);
+                }
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -12px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: var(--main-color);
+                }
+            }
+            i {
+                font-size: 100px;
+                line-height: 1;
+                color: var(--heading-color);
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+.benefit-our-software-contebt {
+    h3 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        margin-top: 20px;
+        li {
+            position: relative;
+            z-index: 1;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 8px;
+                left: 0;
+                width: 10px;
+                height: 10px;
+                background-color: var(--main-color);
+                border-radius: 50%;
+            }
+        }
+    }
+}
+.tab {
+    .tabs_item {
+        display: none;
+        &:first-child {
+            display: block;
+        }
+    }
+}
+
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .tab {
+        .tabs {
+            li {
+                padding-right: 0;
+                padding-left: 0;
+                margin-bottom: 20px;
+                margin-right: 5px;
+                i {
+                    font-size: 50px;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .benefit-our-software-img {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .tab .tabs li.current::before {
+        display: none;
+    }
+    .benefit-our-software-contebt h3 {
+        font-size: 25px;
+    } 
+  
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .tab {
+        .tabs {
+            li {
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }
+    }
+    .benefit-our-software-img {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .benefit-our-software-contebt h3 {
+        font-size: 25px;
+    } 
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .tab {
+        .tabs {
+            li {
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,114 @@
+
+/*
+Partner Area Style
+======================================================*/
+.partner-area {
+    position: relative;
+    z-index: 1;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 34%;
+        background-color: #e6ebfe;
+        z-index: -1;
+    }
+    .owl-carousel {
+        .owl-item {
+            img {
+                width: auto;
+                margin: auto;
+            }
+        }
+    }
+    &.partner-area-style-two {
+        text-align: center;
+        h3 {
+            color: var(--white-color);
+            margin-bottom: 50px;
+            display: block;
+            font-size: 25px;
+        }
+        &::before {
+            display: none;
+        }
+        .partner-bg {
+            background-image: url(../../images/partner-bg.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            border-radius: 0 100px 0 0;
+        }
+    }
+    &.partner-area-style-three {
+        text-align: center;
+        &::before {
+            display: none;
+        }
+        h3 {
+            font-size: 25px;
+            color: var(--heading-color);
+            display: block;
+            margin-bottom: 50px;
+        }
+    }
+}
+.partner-bg {
+    background-color: #786ade;
+    padding: 0 30px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    h3 {
+        color: var(--white-color);
+        display: block;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    .shape {
+        position: absolute;
+        &.shape-1 {
+            top: 30px;
+            left: 30px;
+        }
+        &.shape-2 {
+            bottom: 30px;
+            right: 30px;
+        }
+    }
+}
+
+/*
+Responsive Area Style
+======================================================*/
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .partner-bg {
+        span {
+            margin-bottom: 30px;
+        }
+        .shape {
+            display: none;
+        }
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .partner-bg {
+        span {
+            margin-bottom: 30px;
+        }
+        .shape {
+            display: none;
+        }
+    }
+
+}

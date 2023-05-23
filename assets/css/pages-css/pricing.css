@@ -1,0 +1,303 @@
+/*
+Pricing Area Style
+======================================================*/
+.pricing-area {
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-area .shape {
+  position: absolute;
+  z-index: -1;
+}
+
+.pricing-area .shape.shape-1 {
+  top: 0;
+  left: 0;
+}
+
+.pricing-area .shape.shape-2 {
+  top: 0;
+  right: 0;
+}
+
+.pricing-area .shape.shape-3 {
+  bottom: 30px;
+  left: 200px;
+}
+
+.pricing-area .shape.shape-4 {
+  bottom: 0;
+  left: 0;
+}
+
+.single-pricing-card {
+  margin-bottom: 30px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-pricing-card .pricing-bar {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e2ebfe), to(#fce2f5));
+  background-image: linear-gradient(to bottom right, #e2ebfe, #fce2f5);
+  padding: 30px;
+  border-radius: 20px 20px 0 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-pricing-card .pricing-bar span {
+  color: var(--heading-color);
+  font-weight: 900;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 15px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-pricing-card .pricing-bar h2 {
+  color: var(--main-color);
+  font-size: 48px;
+  margin-bottom: 10px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-pricing-card .pricing-bar h2 sub {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--body-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.single-pricing-card .price-list {
+  background-color: var(--white-color);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  border-radius: 0 0 20px 20px;
+  padding: 30px;
+}
+
+.single-pricing-card .price-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.single-pricing-card .price-list ul li {
+  font-size: 16px;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.single-pricing-card .price-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.single-pricing-card .price-list ul li i {
+  color: var(--main-color);
+  font-size: 20px;
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+
+.single-pricing-card .price-list .default-btn {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--main-color);
+  background-color: transparent;
+  color: var(--main-color);
+}
+
+.single-pricing-card .price-list .default-btn:hover {
+  color: var(--white-color);
+}
+
+.single-pricing-card .price-list .default-btn:hover::before, .single-pricing-card .price-list .default-btn:hover::after {
+  background-color: var(--main-color);
+}
+
+.single-pricing-card.active {
+  position: relative;
+}
+
+.single-pricing-card.active .pricing-bar {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7545ff), to(#7545ff));
+  background-image: linear-gradient(to bottom right, #7545ff, #7545ff);
+}
+
+.single-pricing-card.active .pricing-bar span {
+  color: var(--white-color);
+}
+
+.single-pricing-card.active .pricing-bar h2 {
+  color: var(--white-color);
+}
+
+.single-pricing-card.active .pricing-bar h2 sub {
+  color: var(--white-color);
+}
+
+.single-pricing-card.active .pricing-bar p {
+  color: var(--white-color);
+}
+
+.single-pricing-card.active .default-btn {
+  width: 100%;
+  display: block;
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.single-pricing-card.active .default-btn:hover {
+  color: var(--white-color);
+}
+
+.single-pricing-card.active .default-btn:hover::before, .single-pricing-card.active .default-btn:hover::after {
+  background-color: var(--main-color);
+}
+
+.single-pricing-card.active .recommended {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  display: inline-block;
+  border-radius: 50px 0 0 50px;
+  padding: 15px 50px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.single-pricing-card:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.single-pricing-card.single-pricing-card-style-two .price-list {
+  border-radius: 0;
+}
+
+.single-pricing-card.single-pricing-card-style-two .pricing-bar {
+  border-radius: 0 50px 0 0;
+  position: relative;
+}
+
+.single-pricing-card.single-pricing-card-style-two .pricing-bar .pricing-card-shape {
+  position: absolute;
+  left: 0;
+}
+
+.single-pricing-card.single-pricing-card-style-two.active .pricing-bar {
+  border-radius: 0;
+}
+
+.single-pricing-card.single-pricing-card-style-three .pricing-bar {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(var(--white-color)), to(var(--white-color)));
+  background-image: linear-gradient(to bottom right, var(--white-color), var(--white-color));
+  border-radius: 0;
+  border-top: 5px solid var(--heading-color);
+}
+
+.single-pricing-card.single-pricing-card-style-three .price-list {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.single-pricing-card.single-pricing-card-style-three.active {
+  position: relative;
+}
+
+.single-pricing-card.single-pricing-card-style-three.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: var(--main-color);
+}
+
+.single-pricing-card.single-pricing-card-style-three.active span {
+  color: var(--heading-color);
+}
+
+.single-pricing-card.single-pricing-card-style-three.active h2 {
+  color: var(--main-color);
+}
+
+.single-pricing-card.single-pricing-card-style-three.active h2 sub {
+  color: var(--body-color);
+}
+
+.single-pricing-card.single-pricing-card-style-three.active p {
+  color: var(--body-color);
+}
+
+.pricing-plan-bg {
+  border-top: 1px solid #e1e5e9;
+}
+
+.pricing-plan-bg .single-pricing-card {
+  background-color: #f9f9f9;
+}
+
+.pricing-plan-bg .single-pricing-card .pricing-bar {
+  background-image: none;
+}
+
+.pricing-plan-bg .single-pricing-card .price-list {
+  background-color: #f9f9f9;
+}
+
+/*
+Responsive Area Style
+======================================================*/
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .pricing-area .shape {
+    display: none;
+  }
+  .single-pricing-card .pricing-bar {
+    padding: 20px;
+  }
+  .single-pricing-card .price-list {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .single-pricing-card.active .recommended {
+    padding: 8px 15px;
+  }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing-area .shape {
+    display: none;
+  }
+  .single-pricing-card.active .recommended {
+    padding: 8px 15px;
+  }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-pricing-card .pricing-bar {
+    padding: 20px;
+  }
+  .single-pricing-card .price-list {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .single-pricing-card.active .recommended {
+    padding: 8px 15px;
+  }
+}
+/*# sourceMappingURL=pricing.css.map */

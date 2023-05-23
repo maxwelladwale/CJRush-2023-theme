@@ -1,0 +1,50 @@
+.single-integrations {
+  padding: 30px;
+  padding-top: 37px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  background-color: var(--white-color);
+  border-radius: 20px;
+}
+
+.single-integrations h3 {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.single-integrations h3 img {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  max-width: 50px;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  padding: 5px;
+  border-radius: var(--border-radius);
+}
+
+.single-integrations p {
+  margin-bottom: 22px;
+}
+
+.single-integrations .default-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.single-integrations .default-btn:hover::before, .single-integrations .default-btn:hover::after {
+  background-color: var(--main-color);
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .integrations-area .integrations-icon-bg {
+    border-top: 1px solid #eee;
+  }
+}
+/*# sourceMappingURL=integrations-page.css.map */

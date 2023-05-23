@@ -1,0 +1,299 @@
+/* 
+Blog Details Content Style
+=====================================================*/ 
+.blog-details-content {
+	.blog-details-img {
+		position: relative;
+        margin-bottom: 30px;
+	}
+	.blog-top-content {
+        .product {
+            color: var(--main-color);
+            font-size: 16px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+		.blog-content {
+			.admin {
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+				margin-bottom: 10px;
+				li {
+					margin-right: 10px;
+					padding-right: 10px;
+					position: relative;
+					display: inline-block;
+					transition: var(--transition);
+                    font-size: 16px;
+					i {
+						color: var(--main-color);
+						display: inline-block;
+						margin-right: 5px;
+						position: relative;
+						top: 1px;
+					}
+					&:last-child {
+						margin-right: 0;
+						padding-right: 0;
+						&::before {
+							display: none;
+						}
+					}
+				}
+			}
+            .gap-mb-20 {
+                margin-bottom: 20px;
+            }
+            .admirer {
+                background-color: #f3f3f4;
+                padding: 30px 100px;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-top: 30px;
+                img {
+                    margin-bottom: 15px;
+                    border-radius: 50%;
+                }
+                span {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    display: block;
+                    color: var(--main-color);
+                }
+                h3 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+            }
+		}
+		blockquote {
+			padding-left: 90px;
+			position: relative;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			p {
+				font-size: 21px;
+				color: var(--heading-color);
+				font-weight: 600;
+				margin-bottom: 0;
+			}
+			i {
+				font-size: 60px;
+				color: var(--main-color);
+				position: absolute;
+				top: 25px;
+				left: 0;
+				line-height: 1;
+			}
+		}
+	}
+	.tags {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		.tag-link {
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+			line-height: 1;
+			display: inline-block;
+			li {
+				display: inline-block;
+				margin-right: 15px;
+				&.title {
+					i {
+						color: var(--heading-color);
+						font-size: 20px;
+						position: relative;
+						top: 4px;
+					}
+				}
+				a {
+					font-size: 14px;
+					display: inline-block;
+					font-weight: 600;
+                    border-radius: var(--border-radius);
+                    padding: 5px 10px;
+                    border: 1px solid #eeeeee;
+					&:hover {
+						color: var(--white-color);
+                        background-color: var(--main-color);
+					}
+				}
+			}
+		}
+	}
+	.comment {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		margin-bottom: 40px;
+		li {
+			display: inline-block;
+			position: relative;
+			padding-left: 100px;
+            margin-bottom: 40px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			h3 {
+				font-size: 18px;
+				margin-top: -5px;
+				margin-bottom: 8px;
+			}
+			span {
+				font-size: 14px;
+				display: block;
+				margin-bottom: 10px;
+			}
+			p {
+				margin-bottom: 0;
+			}
+			.read-more {
+				position: absolute;
+				top: 0;
+				right: 30px;
+			}
+			&.margin-left {
+				margin-left: 30px;
+			}
+		}
+	}
+	.leave-reply {
+        background-color: var(--white-color);
+		h3 {
+			margin-bottom: 20px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #ebebeb;
+			font-size: 24px;
+			position: relative;
+			&::before {
+				content: "";
+				position: absolute;
+				bottom: -2px;
+				left: 0;
+				width: 150px;
+				height: 3px;
+				background-color: var(--main-color);
+			}
+		}
+		form {
+			p {
+				margin-bottom: 30px;
+			}
+			.form-group {
+				margin-bottom: 30px;
+				label {
+					margin-bottom: 10px;
+					font-weight: 600;
+				}
+				.form-control {
+					background-color: var(--white-color);
+					border: 1px solid #ebebeb;
+					&::placeholder {
+						color: #cccccc;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) { 
+
+	.blog-details-content {
+        .blog-top-content {
+            h3 {
+                font-size: 24px !important;
+				margin-bottom: 10px;
+            }
+            blockquote {
+                p {
+                    font-size: 16px;
+                }
+                i {
+                    opacity: 0.2;
+                }
+            }
+        }
+        .share-link {
+            display: block;
+            float: initial;
+            position: relative;
+            padding-bottom: 0;
+            text-align: center;
+        }
+        .tags {
+            .tag-link li {
+                margin-right: 5px;
+            }
+        }
+        .comment li {
+            padding-left: 0;
+            margin-bottom: 30px;
+            img {
+                position: initial;
+                margin-bottom: 20px;
+            }
+            &.margin-left {
+                margin-left: 20px;
+            }
+        }
+    }
+	.blog-details-content {
+		.tags .tag-link {
+			text-align: center;
+			margin-bottom: 10px;
+			display: block;
+			li {
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.blog-details-content .leave-reply {
+		margin-bottom: 0;
+	}
+    .blog-details-content .blog-top-content blockquote {
+        padding-left: 0;
+    }
+	.blog-details-content .blog-top-content .blog-content .admin li {
+		margin-right: 5px;
+		padding-right: 5px;
+		font-size: 14px;
+	}
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	.blog-details-content .leave-reply {
+		margin-bottom: 0;
+	}
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+	.blog-details-content .share-link {
+		float: initial;
+		padding-bottom: 0;
+		margin-top: 10px;
+	}
+
+}
