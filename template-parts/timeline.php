@@ -29,7 +29,7 @@
     </div>
 
 
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-4">
         <div class="about-content ml-15">
             <p>
                 In 2002, CJ Rush was acquired by Stanley Access Technologies. The valuable CJ Rush brand the world had come to know and love was all but hidden under Stanley's ownership, but in truth, CJ Rush did not go anywhere. The team never ceased to create bespoke masterpieces behind the scenes, delivering the same excellence and unparalleled craftsmanship, just under a different name.
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <div class="col-lg-6">
+    <div class="col-lg-6 desc-2021">
         <div class="about-content ml-15">
             <p>
                 In May 2021, CJ Rush was acquired by Ten Oaks Group, a preeminent family office. Under Ten Oaks, CJ Rush has once again taken center stage as a flourishing business with its heritage brand, evolved and modernized but still the same iconic name that makes no compromises when it comes to artistry and masterful engineering. Just like the CJ Rush entrance systems, the CJ Rush brand has lasting durability too.
@@ -81,3 +81,9 @@
     </div>
 
 </div>
+
+<style>
+    .desc-2021{
+        margin-top: -40px;
+    }
+</style>
