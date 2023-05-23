@@ -1,15 +1,5 @@
 <?php
-/**
- * Theme Name: CJ RUSH
- * Theme URI: thejitu.com
- * Description: CJRUSH Theme
- * Author: THE Jitu
- * Author URI: https://thejitu.com
- * Version: 1.0
- * License: License Name
- * License URI: License URI
- * Text Domain: cjrush
- */
+
 
 // Begin the HTML rendering.
 get_header(); ?>
