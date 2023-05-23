@@ -18,7 +18,7 @@ get_header();
 <div class="page-title-area" style="background-color: #EFFFFD;>
 			<div class=" container">
     <div class="page-title-content">
-        <h2>About us</h2>
+        <h2>About Us</h2>
 
         <ul>
             <li>
@@ -27,7 +27,7 @@ get_header();
                 </a>
             </li>
 
-            <li class="active">About us</li>
+            <li class="active">About Us</li>
         </ul>
     </div>
 </div>
@@ -49,6 +49,16 @@ get_header();
 <section class="about-area pb-100">
     <div class="container">
         <?php get_template_part('./template-parts/timeline'); ?>
+
+        <div class="download-btn">
+            <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn" style="margin-right:40px;">
+                WORK WITH US
+            </a>
+            <a href="<?php echo site_url('products-services');?>" target="_blank" class="default-btn google">
+                VIEW PRODUCTS
+            </a>
+        </div>
+
     </div>
 </section>
 <!-- End About Area -->
