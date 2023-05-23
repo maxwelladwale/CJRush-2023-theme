@@ -150,31 +150,31 @@ get_header();
 </div>
 <!-- End of Revolving Doors Table -->
 
-<!-- Start of Revolving Doors Table -->
-
+<!-- Start of Features -->
 <div class="page-title-area" style="background-color: #EFFFFD;>
 			<div class=" container">
   <div class="page-title-content">
     <section class="about-area pb-100">
       <div class="container">
         <div class="row align-items-center">
+          <h5 class="features-h5">Unrivaled enhancements & customization surpassing all other providers</h5>
           <div class="col-lg-6">
             <?php
             echo do_shortcode('[custom_accordion title="Speed Control" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Glass Ceiling" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Power Assist" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Automatic Locking" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Cladding" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Glass Ceiling" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Glass-ceiling.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Power Assist" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Power-assist.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Automatic Locking" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Automatic-locking.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Cladding" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Cladding.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
             ?>
           </div>
 
           <div class="col-lg-6">
             <?php
-            echo do_shortcode('[custom_accordion title="Floor Grills" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Finishes" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Sweeps" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Canopy Lighting" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
-            echo do_shortcode('[custom_accordion title="Insulation" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Floor Grills" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Floor-Grilling.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Finishes" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Finishes.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Sweeps" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Sweeping.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Canopy Lighting" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Lighting.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
+            echo do_shortcode('[custom_accordion title="Insulation" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Insulation.png" class="accordion-group"] Added boost to door rotation once the door wing is pushed – accessibility, disabled, elderly [/custom_accordion]');
             ?>
           </div>
         </div>
@@ -182,8 +182,42 @@ get_header();
     </section>
   </div>
 </div>
-<!-- End of Revolving Doors Table -->
+<!-- End of Features -->
 
+<!-- Start of Classic Revolving Doors Section -->
+<section class="about-area pb-100">
+  <div class="container">
+    <div class="row align-items-center">
+      <h5 class="revolving-title">Classic Revolving Doors</h5>
+      <div class="col-lg-6">
+        <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner.jpg" alt="Image">
+      </div>
+
+      <div class="col-lg-6">
+        <div class="about-content ml-15">
+          <p class="revolving-description">An <b>innovative, environmentally friendly</b> manual revolving door designed for versatile applications, offering <b>enhanced energy efficiency, improved comfort</b>, and <b>long-lasting durability</b>.</p>
+          <div class="advanced-analytics-content">
+            <ul>
+              <li>
+                <i class="ri-check-line"></i>
+                Effectively reduces infiltration of dust and dirt
+              </li>
+              <li>
+                <i class="ri-check-line"></i>
+                Surface mounted collapsing mechanism designed with long-lasting quality
+              </li>
+              <li>
+                <i class="ri-check-line"></i>
+                Overhead mechanical speed control provides decades of trouble-free service
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Classic Revolving Doors Section -->
 
 <?php
 
