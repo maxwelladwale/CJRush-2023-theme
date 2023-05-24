@@ -404,9 +404,8 @@ Section Title Area Style*/
   color: var(--white-color);
 }
 
-#contactForm .row{
-  display: inline-flex;
-  justify-content: center;
+.forms{
+  margin: 5rem 0 0 0;
 }
 
 /*====================================================
