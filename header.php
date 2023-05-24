@@ -69,7 +69,7 @@
                                     <a href="<?php echo site_url('/revolving-doors');?>" class="nav-link">Revolving Doors</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="<?php echo site_url('/balanced-swingdoors');?>" class="nav-link">Balanced & Swing Doors</a>
+                                    <a href="<?php echo site_url('/balanced-swing');?>" class="nav-link">Balanced & Swing Doors</a>
                                 </li>
                             </ul>
                         </li>
@@ -86,7 +86,7 @@
                     <div class="others-options">
                         <ul>
                             <li>
-                                <a href="pricing-plan.html" class="default-btn" style="padding: 10px 20px;">REQUEST A QUOTE</a>
+                                <a href="#quote" class="default-btn" style="padding: 10px 20px;">REQUEST A QUOTE</a>
                             </li>
                         </ul>
                     </div>

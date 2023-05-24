@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" id="quote">
                 <div class="single-footer-widget download">
                     <h3>Talk to us!</h3>
                     <!-- <p>Don’t miss our future updates! Get Subscribed now!</p> -->
