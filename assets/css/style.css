@@ -404,6 +404,11 @@ Section Title Area Style*/
   color: var(--white-color);
 }
 
+#contactForm .row{
+  display: inline-flex;
+  justify-content: center;
+}
+
 /*====================================================
 OTHERS STYLE AREA
 =====================================================*/
