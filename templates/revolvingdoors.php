@@ -54,6 +54,7 @@ get_header();
         </th>
       </tr>
     </thead>
+    
     <tbody>
       <tr>
         <th scope="row"></th>
@@ -68,7 +69,7 @@ get_header();
         </td>
       </tr>
       <tr>
-        <th scope="row">Description</th>
+        <th scope="row"><p><b>Description</b></p></th>
         <td>
           <p>Foundational revolving doorwith classic framing and customization options</p>
         </td>
@@ -80,7 +81,7 @@ get_header();
         </td>
       </tr>
       <tr>
-        <th scope="row">Control System</th>
+        <th scope="row"><p><b>Control System</b></p></th>
         <td>
           <p>Manual</p>
         </td>
@@ -92,7 +93,7 @@ get_header();
         </td>
       </tr>
       <tr>
-        <th scope="row">Suitable Site</th>
+        <th scope="row"><p><b>Suitable Site</b></p></th>
         <td>
           <ul class="">
             <li>Commercial offices</li>
@@ -109,7 +110,7 @@ get_header();
             <li>Hotels</li>
             <li>Corporate HQ</li>
             <li>Airports</li>
-            <li>Casinoa</li>
+            <li>Casinos</li>
           </ul>
         </td>
         <td>
@@ -121,7 +122,7 @@ get_header();
         </td>
       </tr>
       <tr>
-        <th scope="row">Applications</th>
+        <th scope="row"><p><b>Applications</b></p></th>
         <td></td>
         <td></td>
         <td>Tailgating prevention Piggybacking prevention Simultaneous, bi-directional traffic Ideal for unmanned, high traffic entrances Bulletproof glass Hours of operation</td>
