@@ -1,11 +1,16 @@
 .green-pledge-area{
     background-color: #EFFFFD;
+    padding: 15px 0px;
 }
 .green_pledge_img img{
     width: 60%;
 }
 
 @media only screen and (max-width: 600px) {
+    .green-pledge-area{
+        background-color: #EFFFFD;
+        padding: 25px 0px;
+    }
     .green_pledge_img{
         display: flex;
         align-content: center;

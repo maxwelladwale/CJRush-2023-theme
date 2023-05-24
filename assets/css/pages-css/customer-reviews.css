@@ -81,8 +81,14 @@ Customer Reviews Area Style
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   display: grid;
   grid-template-rows: 380px 130px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
+.single-customer-reviews.single-customer-reviews-style-two:hover{
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
 .single-customer-reviews.single-customer-reviews-style-two::before {
   content: "";
   position: absolute;

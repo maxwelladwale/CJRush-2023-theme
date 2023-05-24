@@ -54,6 +54,11 @@ Counter Area Style
   grid-template-rows: 80px 50px;
   /* padding-left: 40px; */
 }
+.single-counter .count-title:hover h2, .single-counter .count-title:hover h4, .single-counter .count-title:hover h2 .target{
+  color: var(--main-color);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
 
 .single-counter .count-title h2 {
   font-size: 55px;
@@ -61,6 +66,8 @@ Counter Area Style
   margin-bottom: 0;
   line-height: 1;
   margin-bottom: 20px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
 .single-counter .count-title h2 .target {
@@ -69,12 +76,16 @@ Counter Area Style
   margin-left: -10px;
   font-size: 55px;
   color: var(--white-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
 .single-counter .count-title h4 {
   font-size: 17px;
   margin-bottom: 0;
   color: var(--white-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
 /* Max width 767px */
