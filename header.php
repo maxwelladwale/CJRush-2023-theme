@@ -57,7 +57,7 @@
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="<?php echo site_url('/products-services');?>" class="nav-link">
                                 Product & Services
@@ -86,7 +86,7 @@
                     <div class="others-options">
                         <ul>
                             <li>
-                                <a href="pricing-plan.html" class="default-btn">REQUEST A QUOTE</a>
+                                <a href="pricing-plan.html" class="default-btn" style="padding: 10px 20px;">REQUEST A QUOTE</a>
                             </li>
                         </ul>
                     </div>

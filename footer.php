@@ -60,16 +60,19 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="download">
-                    <h3>CJ  Rush Green Pledge</h3>
-                    <p>Lowering your energy bill and saving our planet</p>
+                <div class="single-footer-widget download">
+                    <h3>Talk to us!</h3>
+                    <!-- <p>Don’t miss our future updates! Get Subscribed now!</p> -->
 
-                    <div class="download-btn d-flex justify-content-center">
-                        <a href="#" target="_blank" class="default-btn">
-                            <i class="ri-arrow-fill"></i>
-                            Learn More
-                        </a>
-                    </div>
+                    <form class="newsletter-form" data-toggle="validator" novalidate="true">
+                        <input type="email" class="form-control" placeholder="Your email address" name="EMAIL" required="" autocomplete="off">
+
+                        <button class="default-btn disabled" type="submit" style="pointer-events: all; cursor: pointer;">
+                            REQUEST A QUOTE
+                        </button>
+
+                        <div id="validator-newsletter" class="form-result"></div>
+                    </form>	
                 </div>
             </div>
         </div>
