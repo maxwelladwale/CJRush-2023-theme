@@ -40,7 +40,7 @@ get_header();
 							</div>
 	
 							<div class="banner-img">
-								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/b6.jpg" alt="Image">
+								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/bt1.png" alt="Image">
 							</div>
 						</div>
 					</div>
@@ -309,7 +309,7 @@ get_header();
 		<!-- End Customer Reviews Area -->
 
 		<!-- Start green-pledge-area Area -->
-		<section class="green-pledge-area ptb-70">
+		<section class="green-pledge-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-4 col-lg-4 green_pledge_img">
