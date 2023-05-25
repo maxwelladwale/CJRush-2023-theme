@@ -469,6 +469,13 @@ td button{
   margin: 5rem 0 0 0;
 }
 
+#wpforms-25-field_1,
+#wpforms-25-field_2,
+#wpforms-25-field_3,
+#wpforms-25-field_4{
+  border-radius: 5px;
+}
+
 /*====================================================
 OTHERS STYLE AREA
 =====================================================*/
