@@ -26,15 +26,15 @@
                     <ul class="address text-white">
                         <li class="location">
                             <span class="text-white">Address</span>
-                            2988 West Virginia Avenue Mineville, NY 12857
+                            65 riviera Drive, Markham, Ontario L3R 5J6
                         </li>
                         <li>
                             <span class="text-white">Email</span>
-                            <a href="mailto:hello@inata.com" class="text-white">hello@inata.com</a>
+                            <a href="mailto:rushsales@cjrush.com " class="text-white">rushsales@cjrush.com </a>
                         </li>
                         <li>
                             <span class="text-white">Phone</span>
-                            <a href="tel:+1-(517)-942-3495" class="text-white">+1 (517) 942-3495</a>
+                            <a href="tel:905-944-8005" class="text-white">905-944-8005</a>
                         </li>
                     </ul>
                 </div>
@@ -46,13 +46,13 @@
 
                     <ul class="import-link text-white">
                         <li>
-                            Products & Services
+                            <a href="<?php echo site_url('/products-services');?>">Products & Services</a> 
                         </li>
                         <li>
-                            <a href="#" class="text-white">About Us</a>
+                            <a href="<?php echo site_url('/about-us');?>" class="text-white">About Us</a>
                         </li>
                         <li>
-                            <a href="#" class="text-white">Contact Us</a>
+                            <a href="<?php echo site_url('/contact-us');?>" class="text-white">Contact Us</a>
                         </li>
 
                     </ul>
