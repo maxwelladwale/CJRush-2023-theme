@@ -246,6 +246,12 @@ Footer Area Style
 
 }
 
+.single-footer-widget .import-link li a{
+
+  color: var(--white-color);
+
+}
+
 
 
 .single-footer-widget .import-link li:last-child {
@@ -266,7 +272,7 @@ Footer Area Style
 
 .single-footer-widget .import-link li:hover a {
 
-  color: var(--main-color);
+  color: var(--main-color) !important;
 
 }
 

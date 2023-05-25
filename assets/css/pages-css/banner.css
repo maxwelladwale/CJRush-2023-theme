@@ -8,7 +8,7 @@ Banner Area Style
   z-index: 1;
   overflow: hidden;
   padding-top: 130px;
-  padding-bottom: 180px;
+  padding-bottom: 200px;
   /* background-image: url(../../images/banner/banner-img/banner-bg.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ Banner Area Style
 
 .banner-area .banner-img {
   position: absolute;
-  top: 215px;
+  top: 150px;
   right: 0;
   -webkit-animation: 0.9s fadeInUpBig;
           animation: 0.9s fadeInUpBig;

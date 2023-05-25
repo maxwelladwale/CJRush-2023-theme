@@ -40,7 +40,7 @@ get_header();
 							</div>
 	
 							<div class="banner-img">
-								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/bt1.png" alt="Image">
+								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/b2.jpg" alt="Image">
 							</div>
 						</div>
 					</div>
@@ -66,7 +66,7 @@ get_header();
 		<!-- End Banner Area -->
 
 			<!-- Start Partner Area -->
-			<div class="pt-70">
+			<!-- <div class="pt-70">
 			<div class="container">
 				<div class="partner-bg ptb-100">
 					<h3>Trusted by teams at over 1000+ high growth companies</h3>
@@ -94,15 +94,15 @@ get_header();
 					</div>
 
 					<div class="shape shape-1">
-						<!-- <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/partner/shape-1.png" alt="Image"> -->
+						<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/partner/shape-1.png" alt="Image">
 					</div>
 
 					<div class="shape shape-2">
-						<!-- <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/partner/shape-2.png" alt="Image"> -->
+						<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/partner/shape-2.png" alt="Image">
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- End Partner Area -->
 
 		<!-- Start Advanced Analytics Area -->
@@ -448,8 +448,6 @@ get_header();
 			</div>
 		</section> -->
 		<!-- End Contact Area -->
-
-
 
 <?php
 get_footer();
