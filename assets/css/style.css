@@ -408,7 +408,7 @@ Section Title Area Style*/
 }
 
 .revolving-img{
-  width: 20rem;
+  width: auto;
   height: 20rem;
 }
 
@@ -417,13 +417,13 @@ td{
 }
 
 td h4{
-  inline-size: 10rem;
+  /*inline-size: 10rem;*/
   text-align: center;
   margin: 0 5rem;
 }
 
 td p{
-  inline-size: 13rem;
+  /*inline-size: 13rem;*/
   text-align: center;
   margin: 0 3.5rem;
   font-weight: 500;
@@ -431,6 +431,11 @@ td p{
 
 td ul{
   margin: 0 4rem;
+  font-size: var(--font-size);
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-weight: 500;
+
 }
 
 tr th{
@@ -461,7 +466,7 @@ td button{
 }
 
 .classic-revolving-img {
-  width: 29rem;
+  width: auto;
   height: 29rem;
 }
 
