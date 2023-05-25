@@ -35,7 +35,10 @@ get_header();
 
 <!-- Start Contact Area -->
 <section class="main-contact-area pt-100 pb-100">
+    
     <div class="container">
+        <h2>Let’s work together</h2>
+        <h4>Fill out the form below to request more information about our products, to inquire about a project, or to simply connect with our team.</h4>
         <div class="forms">
             <?php
                 echo the_content();
