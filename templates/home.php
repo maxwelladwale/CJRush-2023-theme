@@ -40,7 +40,7 @@ get_header();
 							</div>
 	
 							<div class="banner-img">
-								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/bt1.png" alt="Image">
+								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/b2.jpg" alt="Image">
 							</div>
 						</div>
 					</div>
