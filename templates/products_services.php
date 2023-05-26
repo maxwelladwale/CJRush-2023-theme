@@ -63,8 +63,8 @@ get_header();
                             </li>
                         </ul>
                     </div>
-                    <div class="download-btn d-flex justify-content-center pt-100 pb-5">
-                        <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
+                    <div class="download-btn d-flex justify-content-center pb-5" style="padding-top:50px;">
+                        <a href="<?php echo site_url('revolving-doors');?>" target="_blank" class="default-btn">
                             LEARN MORE
                         </a>
                     </div>
@@ -75,7 +75,7 @@ get_header();
                     <h3 class="d-flex flex-column align-items-center pb-5">Balanced & Swing Doors</h3>
 
                     <div class="advanced-analytics-img">
-                        <img src="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/masr.jpg" alt="Image">
+                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/masr.jpg" alt="Image">
                     </div>
                     <div class="advanced-analytics-content" style="font-size:22px;">
                         <ul class="products-service-ul">
@@ -93,9 +93,9 @@ get_header();
                             </li>
                         </ul>
                     </div>
-                    <div class="download-btn d-flex justify-content-center pt-100 pb-5">
-                        <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
-                           LEARN MORE
+                    <div class="download-btn d-flex justify-content-center pb-5"style="padding-top: 50px;">
+                        <a href="<?php echo site_url('balanced-swing');?>" target="_blank" class="default-btn">
+                            LEARN MORE
                         </a>
                     </div>
                 </div>
@@ -112,12 +112,18 @@ get_header();
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-title white-title">
-                        <h2 class="text-black">Exceptional Customer Service from Start to Finish</h2>
+                        <h2 class="text-black text-start">Exceptional Customer Service from Start to Finish</h2>
                     </div>
 
                     <p>
                         Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
                     </p>
+                    <div class="download-btn pt-100 pb-5">
+                        <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
+                            REQUEST QUOTE
+                        </a>
+                    </div>
+
                 </div>
 
 
@@ -187,25 +193,25 @@ get_header();
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-benefit-our-software bg-dark pe-0 ps-0">
-                        <h4 class="text-white">Every element is custom designed</h4>
+                        <h4 class="">Every element is custom designed</h4>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-benefit-our-software bg-dark pe-0 ps-0">
-                        <h4 class="text-white">Mechanical elements are kept hidden</h4>
+                        <h4 class="">Mechanical elements are kept hidden</h4>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-benefit-our-software bg-dark pe-0 ps-0">
-                        <h4 class="text-white">Any aesthetic criteria can be met</h4>
+                        <h4 class="">Any aesthetic criteria can be met</h4>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-benefit-our-software bg-dark pe-0 ps-0">
-                        <h4 class="text-white">Extensive variety of finishes available</h4>
+                        <h4 class="">Extensive variety of finishes available</h4>
                     </div>
                 </div>
             </div>
@@ -281,6 +287,16 @@ get_header();
     </section>
     <!-- End Signature Area -->
 
+<style>
+    .single-benefit-our-software>h4
+    {
+        color:white;
+    }
+    .single-benefit-our-software>h4:hover
+    {
+        color: var(--main-color);
+    }
+</style>
 <?php
 
 get_footer();
