@@ -15,25 +15,25 @@ get_header();
 
 
     <!-- Start Page Title Area -->
-    <div class="page-title-area" style="background-color: #EFFFFD;>
-			<div class=" container">
-    <div class="page-title-content">
-        <h2>Products and Services</h2>
+    <div class="page-title-area" style="background-color: #EFFFFD;">
+        <div class="container">
+            <div class="page-title-content">
+                <h2>Products and Services</h2>
 
-        <ul>
-            <li>
-                <a href="<?php echo site_url(); ?>">
-                    Home
-                </a>
-            </li>
+                <ul>
+                    <li>
+                        <a href="<?php echo site_url(); ?>">
+                            Home
+                        </a>
+                    </li>
 
-            <li class="active">Products & Services</li>
-        </ul>
-    </div>
-    </div>
-    <div class="page-title-shape">
-        <!-- <img src="assets/images/page-title-shape.png" alt="Image"> -->
-    </div>
+                    <li class="active">Products & Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-title-shape">
+            <!-- <img src="assets/images/page-title-shape.png" alt="Image"> -->
+        </div>
     </div>
     <!-- End Page Title Area -->
 
@@ -64,7 +64,7 @@ get_header();
                         </ul>
                     </div>
                     <div class="download-btn d-flex justify-content-center pb-5" style="padding-top:50px;">
-                        <a href="<?php echo site_url('revolving-doors');?>" target="_blank" class="default-btn">
+                        <a href="<?php echo site_url('revolving-doors');?>" class="default-btn">
                             LEARN MORE
                         </a>
                     </div>
@@ -94,7 +94,7 @@ get_header();
                         </ul>
                     </div>
                     <div class="download-btn d-flex justify-content-center pb-5"style="padding-top: 50px;">
-                        <a href="<?php echo site_url('balanced-swing');?>" target="_blank" class="default-btn">
+                        <a href="<?php echo site_url('balanced-swing');?>" class="default-btn">
                             LEARN MORE
                         </a>
                     </div>
@@ -118,7 +118,7 @@ get_header();
                     <p>
                         Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
                     </p>
-                    <div class="download-btn pt-100 pb-5">
+                    <div class="download-btn pb-5">
                         <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
                             REQUEST QUOTE
                         </a>
@@ -287,16 +287,16 @@ get_header();
     </section>
     <!-- End Signature Area -->
 
-<style>
-    .single-benefit-our-software>h4
-    {
-        color:white;
-    }
-    .single-benefit-our-software>h4:hover
-    {
-        color: var(--main-color);
-    }
-</style>
+    <style>
+        .single-benefit-our-software>h4
+        {
+            color:white;
+        }
+        .single-benefit-our-software>h4:hover
+        {
+            color: var(--main-color);
+        }
+    </style>
 <?php
 
 get_footer();
