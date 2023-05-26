@@ -214,7 +214,7 @@ Footer Area Style
 
 .single-footer-widget .address li a:hover {
 
-  color: var(--main-color);
+  color: var(--main-color) !important;
 
 }
 

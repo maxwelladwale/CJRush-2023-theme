@@ -26,7 +26,7 @@
                     <ul class="address text-white">
                         <li class="location">
                             <span class="text-white">Address</span>
-                            65 riviera Drive, Markham, Ontario L3R 5J6
+                            65 Riviera Drive, Markham, Ontario L3R 5J6
                         </li>
                         <li>
                             <span class="text-white">Email</span>
@@ -84,7 +84,7 @@
 <div class="copy-right-area bg-dark">
     <div class="container">
         <p class="text-white">
-            Copyright @2023 CJRush.
+            Copyright © 2023 CJRush
 
         </p>
     </div>
