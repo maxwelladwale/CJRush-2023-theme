@@ -87,11 +87,6 @@ get_header();
                     flex-direction: column;
                 }
 
-                .advanced-analytics-content ul li {
-                    font-size: inherit;
-                    font-weight: 500;
-                }
-
                 .advanced-analytics-content ul li i {
                     top: 0;
                 }
@@ -112,7 +107,7 @@ get_header();
 
             <div class="pt-4 pt-lg-5 text-center">
                 <button type="submit" class="default-btn" style="pointer-events: all; cursor: pointer;">
-                    <span>Learn More</span>
+                    <span>LEARN MORE</span>
                 </button>
             </div>
         </div>

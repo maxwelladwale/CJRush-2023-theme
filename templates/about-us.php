@@ -14,8 +14,8 @@ get_header();
 ?>
 
 
-<!-- Start Page Title Area -->
-<div class="page-title-area" style="background-color: #EFFFFD;>
+    <!-- Start Page Title Area -->
+    <div class="page-title-area" style="background-color: #EFFFFD;>
 			<div class=" container">
     <div class="page-title-content">
         <h2>About Us</h2>
@@ -30,40 +30,62 @@ get_header();
             <li class="active">About Us</li>
         </ul>
     </div>
-</div>
-<div class="page-title-shape">
-    <!-- <img src="assets/images/page-title-shape.png" alt="Image"> -->
-</div>
-</div>
-<!-- End Page Title Area -->
-
-<!-- Start Partner Area -->
-<div class="partner-area partner-area-style-three pb-100">
-    <div class="container">
-
     </div>
-</div>
-<!-- End Partner Area -->
+    <div class="page-title-shape">
+        <!-- <img src="assets/images/page-title-shape.png" alt="Image"> -->
+    </div>
+    </div>
+    <!-- End Page Title Area -->
 
-<!-- Start About Area -->
-<section class="about-area pb-100">
-    <div class="container">
-        <?php get_template_part('./template-parts/timeline'); ?>
+    <!-- Start Partner Area -->
+    <div class="partner-area partner-area-style-three pb-100">
+        <div class="container">
 
-        <div class="download-btn">
-            <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn" style="margin-right:40px;">
-                WORK WITH US
-            </a>
-            <a href="<?php echo site_url('products-services');?>" target="_blank" class="default-btn google">
-                VIEW PRODUCTS
-            </a>
         </div>
-
     </div>
-</section>
-<!-- End About Area -->
+    <!-- End Partner Area -->
+
+    <!-- Start About Area -->
+    <section class="about-area pb-100">
+        <div class="container">
+            <?php get_template_part('./template-parts/timeline'); ?>
+
+            <div class="download-btn">
+                <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn" style="margin-right:40px;">
+                    WORK WITH US
+                </a>
+                <a href="<?php echo site_url('products-services');?>" target="_blank" class="default-btn google">
+                    VIEW PRODUCTS
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- End About Area -->
+
+    <style>
+        .year-desc{
+            display:flex;
+            flex-direction:row;
+        }
+        @media only screen and (max-width: 600px) {
+            .desc-2021 {
+                margin-top: var(--bs-gutter-y);
+            }
+
+            .about-img{
+                border-left: none;
+                padding-top:10px;
+            }
+            .year-desc {
+                justify-content:center;
+                padding-top: 10px;
+            }
+
+        }
 
 
+    </style>
 <?php
 
 get_footer();

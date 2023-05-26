@@ -22,8 +22,8 @@
     <div class="col-lg-6">
         <div class="about-img mr-15">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img.png" alt="cjrush-timeline-image">
-            <div style="display:flex; flex-direction:row; justify-cco">
-                <h6 class="px-2">Year</h6></p>description</p>
+            <div class="year-desc">
+                <p class="px-2"><strong>Year</strong></p></p>description</p>
             </div>
         </div>
     </div>
@@ -40,8 +40,8 @@
     <div class="col-lg-6">
         <div class="about-img mr-15">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img.png" alt="cjrush-timeline-image">
-            <div style="display:flex; flex-direction:row; justify-cco">
-                <h6 class="px-2">Year</h6></p>description</p>
+            <div class="year-desc">
+                <p class="px-2"><strong>Year</strong></p><p>description</p>
             </div>
         </div>
     </div>
@@ -57,8 +57,9 @@
     <div class="col-lg-6">
         <div class="about-img mr-15">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img.png" alt="cjrush-timeline-image">
-            <div style="display:flex; flex-direction:row; justify-cco">
-                <h6 class="px-2">Year</h6></p>description</p>
+            <div class="year-desc">
+                <p class="px-2"><strong><strong>Year</strong></strong></p>
+                <p>description</p>
             </div>
         </div>
     </div>
@@ -74,8 +75,9 @@
     <div class="col-lg-6">
         <div class="about-img about-img-nb mr-15">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-img.png" alt="cjrush-timeline-image">
-            <div style="display:flex; flex-direction:row; justify-cco">
-                <h6 class="px-2">Year</h6></p>description</p>
+            <div class="year-desc">
+                <p class="px-2"><strong>Year</strong></p>
+                <p>description</p>
             </div>
         </div>
     </div>
