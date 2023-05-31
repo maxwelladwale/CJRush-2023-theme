@@ -164,37 +164,37 @@ get_header();
     <!-- Start of Features -->
     <section class="about-area pb-100">
         <div class="page-title-area" style="background-color: #EFFFFD;">
-            <div class=" container">
-                <div class="page-title-content">
-                    <section class="about-area pb-100">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <h5 class="features-h5">Unrivaled enhancements & customization surpassing all other providers</h5>
-                                <div class="col-lg-6">
-                                    <?php
-                                    echo do_shortcode('[custom_accordion title="Speed Control" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Ensures safe operation of the door, considering multiple pedestrians using the revolving door simultaneously. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Glass Ceiling" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Glass-ceiling.png" class="accordion-group"] Allows an abundance of natural light to shine down on the revolving door, creating a bright and airy entrance. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Power Assist" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Power-assist.png" class="accordion-group"] Provides an added boost to door rotation, enhancing accessibility for individuals with disabilities or the elderly. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Automatic Locking" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Automatic-locking.png" class="accordion-group"] Pauses door operation at designated times of the day and allows for immediate lockdown during emergencies. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Cladding" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Cladding.png" class="accordion-group"] Covers door surfaces, offering a sophisticated appearance with materials like stainless steel (stain/mirror) or muntz. [/custom_accordion]');
-                                    ?>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <?php
-                                    echo do_shortcode('[custom_accordion title="Floor Grills" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Floor-Grilling.png" class="accordion-group"] Facilitates efficient drainage of water, ice and snow through the floor of the revolving door to prevent slips and falls. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Finishes" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Finishes.png" class="accordion-group"] Variety of finishing including clear anodized, black or dyed anodized, or custom paint colors to suit individual preferences. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Sweeps" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Sweeping.png" class="accordion-group"] Ensures cleaniless and energy efficient temp control by covering gaps, preventing cold or hot air from entering or escaping. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Canopy Lighting" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Lighting.png" class="accordion-group"] Illuminates the interior of the door with LED lights, enhancing visibility in low-light conditions. [/custom_accordion]');
-                                    echo do_shortcode('[custom_accordion title="Insulation" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Insulation.png" class="accordion-group"] Provides added warmth, protection and comfort against inclement weather, while remaining energy efficient. [/custom_accordion]');
-                                    ?>
-                                </div>
+                <div class=" container">
+            <div class="page-title-content">
+                <section class="about-area pb-100">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <h5 class="features-h5">Unrivaled enhancements & customization surpassing all other providers</h5>
+                            <div class="col-lg-6">
+                                <?php
+                                echo do_shortcode('[custom_accordion title="Power Assist" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Power-assist.png" class="accordion-group"] Provides an added boost to door rotation, enhancing accessibility for individuals with disabilities or the elderly. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Speed Control" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Speed.png" class="accordion-group"] Ensures safe operation and velocity, allowing multiple pedestrians to use the door simultaneously. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Automatic Locking" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Automatic-locking.png" class="accordion-group"] Pauses door operation at designated times of the day and allows for immediate lockdown during emergencies. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Glass Ceiling" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Glass-ceiling.png" class="accordion-group"] Allows an abundance of natural light to shine down on the revolving door, creating a bright and airy entrance. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Canopy Lighting" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Lighting.png" class="accordion-group"] Illuminates the interior of the door with LED lights, enhancing visibility in low-light conditions. [/custom_accordion]');
+                                ?>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                <?php
+                                echo do_shortcode('[custom_accordion title="Cladding" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Cladding.png" class="accordion-group"] Covers door surfaces, offering a sophisticated appearance with materials like stainless steel (stain/mirror) or muntz. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Finishes" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Finishes.png" class="accordion-group"] Large variety of anodized and paint finishes available for a polished look. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Floor Grills" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Floor-Grilling.png" class="accordion-group"] Facilitates efficient drainage of water, ice and snow through the floor of the revolving door to prevent slips and falls. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Sweeps" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Sweeping.png" class="accordion-group"] Ensures cleanliness and temperature control by covering gaps and preventing air from escaping. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Insulation" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Insulation.png" class="accordion-group"] Provides added warmth, protection and comfort against inclement weather, while remaining energy efficient. [/custom_accordion]');
+                                ?>
                             </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </div>
-            <span id="classic-doors"></span>
+        </div>
+        <span id="classic-doors"></span>
     </section>
     <!-- End of Features -->
 
@@ -203,7 +203,7 @@ get_header();
         <div class="container">
             <div class="row align-items-center">
                 <h5 class="revolving-title">Classic Revolving Doors</h5>
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner.jpg" alt="Image">
                 </div>
 
