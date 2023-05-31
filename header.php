@@ -75,6 +75,14 @@
                         </li>
 
                         <li class="nav-item">
+                            <a href="<?php echo site_url('/gallery');?>" class="nav-link">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="<?php echo site_url('/downloads');?>" class="nav-link">Downloads</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a href="<?php echo site_url('/about-us');?>" class="nav-link">About Us</a>
                         </li>
 
