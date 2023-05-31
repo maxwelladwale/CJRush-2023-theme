@@ -15,8 +15,8 @@ get_header();
 
 
     <!-- Start Page Title Area -->
-    <div class="page-title-area" style="background-color: #EFFFFD;>
-			<div class=" container">
+    <div class="page-title-area" style="background-color: #EFFFFD;">
+			<div class="container">
     <div class="page-title-content">
         <h2>Products and Services</h2>
 
@@ -64,7 +64,7 @@ get_header();
                         </ul>
                     </div>
                     <div class="download-btn d-flex justify-content-center pb-5" style="padding-top:50px;">
-                        <a href="<?php echo site_url('revolving-doors');?>" target="_blank" class="default-btn">
+                        <a href="<?php echo site_url('revolving-doors');?>" class="default-btn">
                             LEARN MORE
                         </a>
                     </div>
@@ -94,7 +94,7 @@ get_header();
                         </ul>
                     </div>
                     <div class="download-btn d-flex justify-content-center pb-5"style="padding-top: 50px;">
-                        <a href="<?php echo site_url('balanced-swing');?>" target="_blank" class="default-btn">
+                        <a href="<?php echo site_url('balanced-swing');?>" class="default-btn">
                             LEARN MORE
                         </a>
                     </div>
@@ -118,7 +118,7 @@ get_header();
                     <p>
                         Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
                     </p>
-                    <div class="download-btn pt-100 pb-5">
+                    <div class="download-btn pb-5">
                         <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
                             REQUEST QUOTE
                         </a>
