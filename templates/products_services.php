@@ -45,7 +45,7 @@ get_header();
                     <h3 class="d-flex flex-column align-items-center pb-5">Revolving Doors</h3>
 
                     <div class="">
-                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/bphd-min.webp" alt="Image">
+                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/masr-min.webp" alt="Image">
                     </div>
                     <div class="advanced-analytics-content" style="font-size:18px;">
                         <ul class="products-service-ul">
@@ -75,7 +75,7 @@ get_header();
                     <h3 class="d-flex flex-column align-items-center pb-5">Balanced & Swing Doors</h3>
 
                     <div class="">
-                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/masr-min.webp" alt="Image">
+                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/bphd-min.webp" alt="Image">
                     </div>
                     <div class="advanced-analytics-content" style="font-size:18px;">
                         <ul class="products-service-ul">
@@ -118,7 +118,7 @@ get_header();
                     <p>
                         Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
                     </p>
-                    <div class="download-btn pb-5">
+                    <div class="download-btn pb-5 pt-5">
                         <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
                             REQUEST QUOTE
                         </a>
