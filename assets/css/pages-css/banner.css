@@ -18,9 +18,11 @@ Banner Area Style
 .banner-area .banner-img {
   position: absolute;
   top: 150px;
+  margin-right: 20px;
   right: 0;
   -webkit-animation: 0.9s fadeInUpBig;
           animation: 0.9s fadeInUpBig;
+  
 }
 
 .banner-area .shape {
@@ -63,6 +65,7 @@ Banner Area Style
 
 .banner-content {
   max-width: 670px;
+  margin-top: 40px;
 }
 
 .banner-content .top-title {
@@ -328,7 +331,7 @@ Responsive Area Style
 /* Min width 1200px to Max width 1350px */
 @media only screen and (min-width: 1200px) and (max-width: 1350px) {
   .banner-area .banner-img {
-    top: 260px;
+    top: 150px;
     max-width: 500px;
   }
 }
@@ -340,7 +343,7 @@ Responsive Area Style
     padding-bottom: 220px;
   }
   .banner-area .banner-img {
-    top: 280px;
+    top: 150px;
     right: 50px;
   }
 }

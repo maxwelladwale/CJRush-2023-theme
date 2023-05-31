@@ -140,7 +140,7 @@ get_header();
 								</li>
 								<li>
 									<i class="ri-check-line"></i>
-									Faster Installation Than industry Standard
+									Faster installation than industry standard
 								</li>
 							</ul>
 						</div>
@@ -238,7 +238,7 @@ get_header();
 							</li>
 						</ul> -->
 
-						<p>“Over the past 20 years we have had the pleasure of working with CJ Rush on numerous projects. The team has the depth of knowledge and experience to manage a project from pre-construction planning thru to Owner occupancy. We specify CJ Rush products exclusively and will continue to do so for the next 20 years.”</p>
+						<p>“Over the past 20 years we have had the pleasure of working with CJ Rush on numerous projects. The team has the depth of knowledge and experience to manage a project from pre-construction planning through to Owner occupancy. We specify CJ Rush products exclusively and will continue to do so for the next 20 years.”</p>
 
 						<div class="reviews-avatar">
 							<!-- <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/reviews/reviews-1.jpg" alt="Image"> -->

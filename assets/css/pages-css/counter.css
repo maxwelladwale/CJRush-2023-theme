@@ -150,4 +150,10 @@ Counter Area Style
     /* padding-left: 40px; */
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .counter-bg .row .col-lg-3.col-sm-6:first-child h2{
+    margin-left: 35px;
+  }
+}
 /*# sourceMappingURL=counter.css.map */

@@ -254,11 +254,7 @@ Main Contact Area Style
 
 .main-contact-area {
 
-  clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%) !important;
-
-
-
-
+  /* clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%) !important; */
 
 }
 
