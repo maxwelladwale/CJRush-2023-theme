@@ -20,7 +20,7 @@ get_header();
 						<div class="rs-bg">
 							<div class="banner-content">
 								<h1>Premier Entrance Systems For Instant Curb Appeal</h1>
-								<p>CJ Rush manufactures, installs, and services tailor-made, architectural doors that grace the world’s most iconic buildings.</p>
+								<p>CJ Rush manufactures tailor-made doors that grace the world’s most iconic buildings – Rockefeller Center, Harvard Medical School and Capital One Arena to name a few.</p>
 	
 								<form class="get-started-free-form">
 									<input type="email" class="form-control" name="email" placeholder="Enter your email address">
@@ -40,7 +40,7 @@ get_header();
 							</div>
 	
 							<div class="banner-img">
-								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/b2.jpg" alt="Image">
+								<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/banner/banner-img/myb1.png" alt="Image">
 							</div>
 						</div>
 					</div>
@@ -140,7 +140,7 @@ get_header();
 								</li>
 								<li>
 									<i class="ri-check-line"></i>
-									Faster Installation Than Market
+									Faster Installation Than industry Standard
 								</li>
 							</ul>
 						</div>
@@ -238,7 +238,7 @@ get_header();
 							</li>
 						</ul> -->
 
-						<p>“ Over the past 20 years we have had the pleasure of working with CJ Rush on numerous projects. The team has the depth of knowledge and experience to manage a project from pre-construction planning thru to Owner occupancy. We specify CJ Rush products exclusively and will continue to do so for the next 20 years.”</p>
+						<p>“Over the past 20 years we have had the pleasure of working with CJ Rush on numerous projects. The team has the depth of knowledge and experience to manage a project from pre-construction planning thru to Owner occupancy. We specify CJ Rush products exclusively and will continue to do so for the next 20 years.”</p>
 
 						<div class="reviews-avatar">
 							<!-- <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/reviews/reviews-1.jpg" alt="Image"> -->
@@ -266,7 +266,7 @@ get_header();
 							</li>
 						</ul> -->
 
-						<p>“ CJ Rush is the Premiere Entrance Systems provider for customers who want their commercial buildings to stand out. Their commitment to quality and manufacturing distinctive product is unparalleled. I am thrilled that STANLEY Access Technologies is serving our commercial building clients alongside with CJ Rush to create an optimal customer experience. ”</p>
+						<p>“CJ Rush is the Premiere Entrance Systems provider for customers who want their commercial buildings to stand out. Their commitment to quality and manufacturing distinctive product is unparalleled. I am thrilled that STANLEY Access Technologies is serving our commercial building clients alongside with CJ Rush to create an optimal customer experience.”</p>
 
 						<div class="reviews-avatar">
 							<!-- <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/reviews/reviews-2.jpg" alt="Image"> -->
@@ -294,7 +294,7 @@ get_header();
 							</li>
 						</ul> -->
 
-						<p>“ We have been purchasing CJ Rush doors for over 20 years. The quality is #1 due to their attention to detail and ability to custom order special designs. Their stainless-steel cladding is second-to-none and their patented RushClad design provides for long lasting performance.”</p>
+						<p>“We have been purchasing CJ Rush doors for over 20 years. The quality is #1 due to their attention to detail and ability to custom order special designs. Their stainless-steel cladding is second-to-none and their patented RushClad design provides for long lasting performance.”</p>
 
 						<div class="reviews-avatar">
 							<!-- <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/reviews/reviews-3.jpg" alt="Image"> -->
@@ -312,12 +312,12 @@ get_header();
 		<section class="green-pledge-area">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-4 col-lg-4 green_pledge_img">
+					<div class="col-sm-12 col-md-3 col-lg-3 green_pledge_img">
 						<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/cjpledge.png" alt="Image">
 					</div>
-					<div class="col-sm-12 col-md-8 col-lg-8 row green_pledge_text">
+					<div class="col-sm-12 col-md-9 col-lg-9 row green_pledge_text">
 						<div class="col-xs-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center">
-							<h2>CJ RUSH GREEN PLEDGE</h2>
+							<h2 style="font-size: 46px;">CJ RUSH GREEN PLEDGE</h2>
 							<p>Lowering your energy bill and saving our planet</p>
 						</div>
 						<div class="col-xs-12 col-md-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">

@@ -49,6 +49,13 @@
                             <a href="<?php echo site_url('/products-services');?>">Products & Services</a> 
                         </li>
                         <li>
+                            <a href="<?php echo site_url('/gallery');?>" class="nav-link">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo site_url('/downloads');?>" class="nav-link">Downloads</a>
+                        </li>
+                        <li>
                             <a href="<?php echo site_url('/about-us');?>" class="text-white">About Us</a>
                         </li>
                         <li>
