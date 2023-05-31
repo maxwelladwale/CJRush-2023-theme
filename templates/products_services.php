@@ -241,33 +241,40 @@ get_header();
     <section class="benefit-our-software-area pb-70">
         <div class="container">
             <div class="advanced-analytics-content" style="font-size:18px;">
-                <ol  type="I" class="products-service-ul">
-                    <li class="serv-lst">
-                        <p>Replacement or restoration of period doors, preserving the original façade</p>
+                <ul class="products-service-ul">
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Replacement or restoration of period doors (while maintaining aesthetic and façade)
                     </li>
-                    <li class="serv-lst">
-                        <p>Restoration or replacement of vestibules, sidelights, and transoms</p>
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Restoration or replacement of vestibules, sidelights, and transoms
                     </li>
-                    <li class="serv-lst">
-                        <p>Cladding for all types of doors, columns, vestibules, sidelights, and transoms</p>
-                    </li>
-
-                    <li class="serv-lst">
-                        <p>Refurbish most makes of revolvers to accommodate CJ Rush’s standard door wings, collapsing mechanism, and hardware</p>
-                    </li>
-
-                    <li class="serv-lst">
-                        <p>Manufacturing of speciality handrails and spindles made of glass, stainless steel or aluminum</p>
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Cladding for all types of doors, columns, vestibules, sidelights, and transoms
                     </li>
 
-                    <li class="serv-lst">
-                        <p>Manufacturing of bollards, stanchions, and access control terminals</p>
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Refurbish most makes of revolvers to accommodate CJ Rush’s standard door wings, collapsing mechanism, and hardware
                     </li>
 
-                    <li class="serv-lst">
-                        <p>Manufacture column covers, spandrels, balustrades, stairways, and railings to complete your prestige entranceway</p>
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Manufacturing of speciality handrails and spindles made of glass, stainless steel or aluminum
                     </li>
-                </ol>
+
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Manufacturing of bollards, stanchions, and access control terminals
+                    </li>
+
+                    <li>
+                        <i class="ri-check-line"></i>
+                        Manufacture column covers, spandrels, balustrades, stairways, and railings to complete your prestige entranceway
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
