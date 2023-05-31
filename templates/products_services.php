@@ -44,10 +44,10 @@ get_header();
                 <div class="col-lg-6">
                     <h3 class="d-flex flex-column align-items-center pb-5">Revolving Doors</h3>
 
-                    <div class="advanced-analytics-img">
-                        <img src="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/bphd.jpg" alt="Image">
+                    <div class="">
+                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/bphd-min.webp" alt="Image">
                     </div>
-                    <div class="advanced-analytics-content" style="font-size:22px;">
+                    <div class="advanced-analytics-content" style="font-size:18px;">
                         <ul class="products-service-ul">
                             <li>
                                 <i class="ri-check-line"></i>
@@ -55,11 +55,11 @@ get_header();
                             </li>
                             <li>
                                 <i class="ri-check-line"></i>
-                                Maintain HVAC Integrity
+                                Maintains HVAC Integrity
                             </li>
                             <li>
                                 <i class="ri-check-line"></i>
-                                Maximize Traffic Flow
+                                Maximizes Traffic Flow
                             </li>
                         </ul>
                     </div>
@@ -74,10 +74,10 @@ get_header();
                 <div class="col-lg-6">
                     <h3 class="d-flex flex-column align-items-center pb-5">Balanced & Swing Doors</h3>
 
-                    <div class="advanced-analytics-img">
-                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/masr.jpg" alt="Image">
+                    <div class="">
+                        <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/masr-min.webp" alt="Image">
                     </div>
-                    <div class="advanced-analytics-content" style="font-size:22px;">
+                    <div class="advanced-analytics-content" style="font-size:18px;">
                         <ul class="products-service-ul">
                             <li>
                                 <i class="ri-check-line"></i>
@@ -129,7 +129,7 @@ get_header();
 
                 <div class="col-lg-6">
 
-                    <div class="advanced-analytics-content" style="font-size:22px;">
+                    <div class="advanced-analytics-content" style="font-size:18px;">
                         <ul class="products-service-ul mt-0 services-listed">
                             <li class="about-img mb-0">
                                 <h5>Consultation</h5>
@@ -140,14 +140,14 @@ get_header();
                             <li class="about-img mb-0">
                                 <h5>Design</h5>
                                 <p>
-                                    Our team of experts collaborate closely with you, offering personalized guidance and expert recommendations during the design phase.
+                                    Our team of expert artisans collaborate close with you and offer personalized guidance during the design phase.
                                 </p>
-                                <img src="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/design-1.png">
+                                <img src="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/design-1.png" style="height: 100%;">
                             </li>
                             <li class="about-img mb-0">
                                 <h5>Manufacturing</h5>
                                 <p>
-                                    We ensure quality at every manufacturing stage, utilizing cutting-edge technologies and maintaining rigorous quality control measures.
+                                    We guarantee quality at every stage of the manufacturing process, utilizing cutting-edge technology and maintaining rigorous quality control measures.
                                 </p>
                             </li>
                             <li class="about-img mb-0">
@@ -160,12 +160,6 @@ get_header();
                                 <h5>Installation Support</h5>
                                 <p>
                                     We provide technical assistance for installation and supply our customers with a list of Certified Installers from our Distribution Network.
-                                </p>
-                            </li>
-                            <li class="about-img mb-0">
-                                <h5>Maintenance Support</h5>
-                                <p>
-                                    We provide technical assistance on maintenance and repairs and supply our customers with a list of Certified Repair Technicians from our Network.
                                 </p>
                             </li>
                             <li class="about-img-rounder mb-0">
@@ -186,7 +180,7 @@ get_header();
     <!-- Start Benefit our Software Area -->
     <section class="benefit-our-software-area bg-color pt-100 pb-70" style="background-color: #EFFFFD;">
         <div class="container">
-            <div class="section-title white-title">
+            <div class="section-title white-title" style="max-width: 100%;">
                 <h2 class="text-black">Bring your unique entryway vision to life</h2>
             </div>
 
@@ -220,7 +214,7 @@ get_header();
     <!-- End Benefit our Software Area -->
 
     <!-- Start signature area -->
-    <section class="benefit-our-software-area pt-100 pb-70">
+    <section class="benefit-our-software-area pt-100 pb-35">
         <div class="container">
             <div class="white-title pb-100">
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/signature.png" class="text-black"></img>
@@ -235,8 +229,7 @@ get_header();
                             CJ Rush has the capabilities to offer a wide variety of services to our customers, going beyond the ability to manufacture exceptional products.
                         </p>
                         <p>
-                            Our expert team can handle refurbishments and recladding to give your entryways a fresh and modern touch. We are masters of architectural restorations, and we take pride in preserving the authenticity and grandeur of historical doors…
-                        </p>
+                            See below for a selection of services. We can partner together and identify creative solutions for any and all of your requests, no matter how niche!                        </p>
                     </div>
                 </div>
             </div>
@@ -247,41 +240,34 @@ get_header();
     <!-- Start signature area -->
     <section class="benefit-our-software-area pb-70">
         <div class="container">
-            <div class="advanced-analytics-content" style="font-size:22px;">
-                <ul class="products-service-ul">
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Replacement or restoration of period doors (while maintaining aesthetic and façade)
+            <div class="advanced-analytics-content" style="font-size:18px;">
+                <ol  type="I" class="products-service-ul">
+                    <li class="serv-lst">
+                        <p>Replacement or restoration of period doors, preserving the original façade</p>
                     </li>
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Restoration or replacement of vestibules, sidelights, and transoms
+                    <li class="serv-lst">
+                        <p>Restoration or replacement of vestibules, sidelights, and transoms</p>
                     </li>
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Cladding for all types of doors, columns, vestibules, sidelights, and transoms
+                    <li class="serv-lst">
+                        <p>Cladding for all types of doors, columns, vestibules, sidelights, and transoms</p>
                     </li>
 
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Refurbish most makes of revolvers to accommodate CJ Rush’s standard door wings, collapsing mechanism, and hardware
+                    <li class="serv-lst">
+                        <p>Refurbish most makes of revolvers to accommodate CJ Rush’s standard door wings, collapsing mechanism, and hardware</p>
                     </li>
 
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Manufacturing of speciality handrails and spindles made of glass, stainless steel or aluminum
+                    <li class="serv-lst">
+                        <p>Manufacturing of speciality handrails and spindles made of glass, stainless steel or aluminum</p>
                     </li>
 
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Manufacturing of bollards, stanchions, and access control terminals
+                    <li class="serv-lst">
+                        <p>Manufacturing of bollards, stanchions, and access control terminals</p>
                     </li>
 
-                    <li>
-                        <i class="ri-check-line"></i>
-                        Manufacture column covers, spandrels, balustrades, stairways, and railings to complete your prestige entranceway
+                    <li class="serv-lst">
+                        <p>Manufacture column covers, spandrels, balustrades, stairways, and railings to complete your prestige entranceway</p>
                     </li>
-                </ul>
+                </ol>
             </div>
         </div>
     </section>
@@ -295,6 +281,18 @@ get_header();
     .single-benefit-our-software>h4:hover
     {
         color: var(--main-color);
+    }
+    .serv-lst{
+        padding-bottom: 15px;
+    }
+    .serv-lst::marker{
+        color:#31D372;
+    }
+    .serv-lst:hover{
+        color: #31D372;
+    }
+    .pb-35{
+        padding-bottom: 35px;
     }
 </style>
 <?php
