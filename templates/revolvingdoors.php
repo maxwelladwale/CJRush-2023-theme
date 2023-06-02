@@ -199,33 +199,44 @@ get_header();
     <!-- End of Features -->
 
     <!-- Start of Classic Revolving Doors Section -->
-    <section class="about-area pb-100">
+    <section class="rev-doors classic-door pb-100">
         <div class="container">
-            <div class="row align-items-center">
-                <h5 class="revolving-title">Classic Revolving Doors</h5>
+            <div class="row">
+                <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
                 <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content ml-15">
-                        <p class="revolving-description">An <b>innovative, environmentally friendly</b> manual revolving door designed for versatile applications, offering <b>enhanced energy efficiency, improved comfort</b>, and <b>long-lasting durability</b>.</p>
+                    <div class="about-content revolving-div ml-15">
+                        <div class="section-title">
+                            <span>Classic Revolving Doors</span>
+                            <h2>Affordable & Versatile</h2>
+                        </div>
+                        <p>Innovative, low maintenance, and environmentally friendly manual revolving doors designed for many commercial applications, offering enhanced energy efficiency, comfort, and long-lasting durability.</p>
                         <div class="advanced-analytics-content">
                             <ul>
+                                <p><b>High-Level Specifications</b></p>
                                 <li>
                                     <i class="ri-check-line"></i>
-                                    Effectively reduces infiltration of dust and dirt
+                                    Surface-mount design allows for seamless retrofitting and hassle-free installation
                                 </li>
                                 <li>
                                     <i class="ri-check-line"></i>
-                                    Surface mounted collapsing mechanism designed with long-lasting quality
+                                    Available with three or four wings
                                 </li>
                                 <li>
                                     <i class="ri-check-line"></i>
-                                    Overhead mechanical speed control provides decades of trouble-free service
+                                    Choose from a range of sizes up to 8' in diameter
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Custom fabrication and finishing options
                                 </li>
                             </ul>
                         </div>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+
                     </div>
                 </div>
             </div>
@@ -233,6 +244,111 @@ get_header();
     </section>
     <!-- End of Classic Revolving Doors Section -->
 
+        <!-- Start of Contemporary revolving doors Section -->
+    <section class="rev-doors contemporary-doors ptb-100">
+        <div class="container">
+            <div class="row">
+                <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
+
+                <div class="col-lg-6 text-center">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Contemporary-revolving-door.jpg" alt="Image">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-content revolving-div ml-15">
+                        <div class="section-title">
+                            <span>Contemporary revolving doors</span>
+                            <h2>Sleek & Sophisticated</h2>
+                        </div>
+                        <p>An elegant collection of manual or automatic revolving doors built to make your entrance stand out, offering a wide range of customization options for maximum style with zero compromises on functionality / service.</p>
+
+                        
+                        <div class="advanced-analytics-content">
+                            <ul>
+                            <p><b>High-Level Specifications</b></p>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Safest door in the industry with advanced sensors
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Concealed features for a clean, “all glass” look
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Available with three or four wings
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Standard and customizable sizes
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Custom fabrication and finishing options
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- End of Contemporary revolving doors Section -->
+
+        <!-- Start of Security revolving doors Section -->
+        <section class="rev-doors security-doors ptb-100">
+        <div class="container">
+            <div class="row">
+                <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
+
+                <div class="col-lg-6 text-center">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Security-revolving.jpg" alt="Image">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-content revolving-div ml-15">
+                        <div class="section-title">
+                            <span>Security revolving doors</span>
+                            <h2>Award Winning Safety</h2>
+                        </div>
+                        <p>Protect what matters most with the highly impressive automatic security revolving door from CJ Rush – your trusted safety solutions provider.</p>
+
+                        
+                        <div class="advanced-analytics-content">
+                            <ul>
+                            <p><b>High-Level Specifications</b></p>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Anti-tailgating and optional anti-piggybacking detection using Time-of-Flight (TOF) technology
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Versatile one-way or two-way security options
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Advanced features such as PLC control pre-programmed to ANSI standards, bulletproof glass, single person detection, and entry / exit flow control
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Wireless phone app for monitoring and diagnostics
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- End of Security revolving doors Section -->
 <?php
 
 get_footer();
