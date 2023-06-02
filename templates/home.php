@@ -321,7 +321,7 @@ get_header();
 							<p>Lowering your energy bill and saving our planet</p>
 						</div>
 						<div class="col-xs-12 col-md-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">
-							<a href="about-us.html" class="default-btn green_btn">
+							<a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">
 								LEARN MORE
 							</a>
 						</div>

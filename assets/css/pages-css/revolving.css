@@ -1,0 +1,32 @@
+.rev-doors .container .row .col-lg-6 .classic-revolving-img{
+    height: auto !important;
+}
+.revolving-div p{
+    font-size: 24px !important;
+    font-weight: 400 !important;
+}
+.revolving-div .section-title {
+    margin-bottom: 25px !important;
+    text-align: left !important;
+}
+.revolving-div .section-title span{
+    font-size: 24px !important;
+}
+.revolving-div a{
+    margin-top: 40px !important;
+}
+
+.contemporary-doors{
+    background-color: #EFFFFD;
+}
+@media only screen and (min-width: 992px) {
+    .rev-doors.contemporary-doors .container .row {
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .rev-doors.contemporary-doors .container .row {
+        flex-direction: row-reverse;
+    }
+}
