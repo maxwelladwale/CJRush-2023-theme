@@ -15,7 +15,7 @@ get_header();
 
 
     <!-- Page Title -->
-    <div class="page-title-area" style="background-color: #EFFFFD;">
+    <div class="page-title-area green-bg">
         <div class="container">
             <div class="page-title-content">
                 <h2>Balanced & Swing Doors</h2>
@@ -30,33 +30,68 @@ get_header();
             </div>
         </div>
     </div>
-
-    <!-- Balanced Doors -->
-    <section class="why-choose-this-area ptb-100">
+    <!-- Start of Free Flowing Spirit Section -->
+    <section class="rev-doors classic-door pb-100 pt-100">
         <div class="container">
-            <div class="why-choose-bg pb-100 border-0">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="why-choose-this-content">
-                            <h2>BALANCED DOORS</h2>
-                            <p>Say goodbye to heavy doors trapped in perpetual wind tunnels. These cleverly designed CJ Rush balanced doors utilize the pressure differential between inside and outside air to make door operation a breeze.</p>
-                            <p>By achieving a perfect equilibrium, these doors skillfully counterbalance the forces on either side of the pivot, ensuring a smooth and pleasant experience.</p>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
+                </div>
 
-                    <div class="col-lg-5">
-                        <div class="text-center">
-                            <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/balanced-doors.jpg" alt="Image">
+                <div class="col-lg-6">
+                    <div class="about-content revolving-div ml-15">
+                        <div class="section-title">
+                            <span>Balanced doors</span>
+                            <h2>Superior Performance</h2>
                         </div>
+                        <p>
+                            Say goodbye to heavy doors trapped in perpetual wind tunnels. These cleverly designed CJ Rush balanced doors utilize the pressure differential between inside and outside air to make door operation a breeze.
+                        </p>
+                        <div class="advanced-analytics-content">
+                            <ul>
+                                <p><b>High-Level Specifications</b></p>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Single or pair doors
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Custom dimensions available
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Tempered glass for enhanced durability
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Concealed door closer ensures clean look
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Snap-on covers eliminate visible screws in framing
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Various framing options available
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- End of Free Flowing Spirit Section -->
 
-        <div style="background-color: #EFFFFD;">
+    <!-- Balanced Doors -->
+    <section class="why-choose-this-area ptb-100">
+        <div class="green-bg">
             <div class="container">
                 <div class="why-choose-bg ptb-100 border-0">
                     <div class="row align-items-center justify-content-around">
+                        <h3 class="pb-100 justify-content-center text-uppercase text-center">Achieving equilibrium for smooth and easy operation</h3>
                         <div class="col-lg-6 mb-3 mb-lg-4">
                             <h4 class="text-center">CONVENTIONAL HINGED DOOR</h4>
                         </div>
@@ -78,41 +113,116 @@ get_header();
                 </div>
             </div>
         </div>
+    </section>
 
+    <!-- Start of Perfected Design Section -->
+    <section class="rev-doors classic-door pb-100 pt-100">
         <div class="container">
-            <style>
-                .advanced-analytics-content ul {
-                    margin-top: 0;
-                    display: flex;
-                    flex-direction: column;
-                }
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content revolving-div ml-15">
+                        <div class="section-title">
+                            <span>Swing doors | Hinged</span>
+                            <h2>Perfected Design</h2>
+                        </div>
+                        <p>CJ Rush has perfected the most ubiquitous door design in the world. Recognized by two to three hinges attached to the vertical long edge of the frame, these doors can be tailored to swing inward or outward.</p>
+                        <div class="advanced-analytics-content">
+                            <ul>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Single or pair doors
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Individual or continuous hinges
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Cladded, painted or anodized finishes
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Custom dimensions available
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Tempered glass for enhanced durability
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
 
-                .advanced-analytics-content ul li i {
-                    top: 0;
-                }
-            </style>
-            <div class="advanced-analytics-content pt-100">
-                <ul>
-                    <li>
-                        <i class="ri-check-line"></i> Single or pair doors.
-                    </li>
-                    <li>
-                        <i class="ri-check-line"></i> Fully framed classic look or “all glass” modern look.
-                    </li>
-                    <li>
-                        <i class="ri-check-line"></i> Wide stile (1/4″ tempered glass), narrow stile (1/2″ tempered glass) or top and bottom rails only (1/2″ tempered glass).
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                </div>
 
-            <div class="pt-4 pt-lg-5 text-center">
-                <button type="submit" class="default-btn" style="pointer-events: all; cursor: pointer;">
-                    <span>LEARN MORE</span>
-                </button>
+                <div class="col-lg-6 text-center">
+                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
+                </div>
             </div>
         </div>
     </section>
+    <!-- End of Classic Revolving Doors Section -->
 
+    <!-- Start of Free Flowing Spirit Section -->
+    <section class="rev-doors classic-door pb-100 green-bg pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-content revolving-div ml-15">
+                        <div class="section-title">
+                            <span>Swing doors | Pivot</span>
+                            <h2>Free Flowing Spirit</h2>
+                        </div>
+                        <p>
+                            CJ Rush pivot doors  are an excellent and stylish choice for applications that require a large opening with minimal floor space interruption. Pins at the top and bottom of the frame allow it to pivot rather than swing.
+                        </p>
+                        <div class="advanced-analytics-content">
+                            <ul>
+                                <p><b>High-Level Specifications</b></p>
+
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Single or pair doors
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Center and off-center pivots positions
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Cladded, painted or anodized finishes
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Custom dimensions available
+                                </li>
+                                <li>
+                                    <i class="ri-check-line"></i>
+                                    Tempered glass for enhanced durability
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Free Flowing Spirit Section -->
+
+<style>
+    .green-bg {
+        background-color: #EFFFFD;
+    }
+    .full-height{
+        height: 100% !important;
+    }
+</style>
 <?php
 
 get_footer();
