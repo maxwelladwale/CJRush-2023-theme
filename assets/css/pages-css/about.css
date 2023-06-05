@@ -3,7 +3,9 @@
 About Area Style
 
 =====================================================*/
-
+.pb-22 {
+  padding-bottom: 20px;
+}
 .about-img {
 
   position: relative;
@@ -301,6 +303,7 @@ Responsive Area Style
 
     margin-bottom: 30px;
 
+    border-left: none;
   }
 
 }
