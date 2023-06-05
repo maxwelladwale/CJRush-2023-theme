@@ -42,12 +42,11 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h3 class="d-flex flex-column align-items-center pb-5">Revolving Doors</h3>
-
-                    <div class="">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="pb-5">Revolving Doors</h3>                
                         <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/masr-min.webp" alt="Image">
                     </div>
-                    <div class="advanced-analytics-content" style="font-size:18px;">
+                    <div class="advanced-analytics-content plc-40" style="font-size:18px;">
                         <ul class="products-service-ul">
                             <li>
                                 <i class="ri-check-line"></i>
@@ -72,12 +71,11 @@ get_header();
 
 
                 <div class="col-lg-6">
-                    <h3 class="d-flex flex-column align-items-center pb-5">Balanced & Swing Doors</h3>
-
-                    <div class="">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="pb-5">Balanced & Swing Doors</h3>
                         <img src="<?php echo __(get_template_directory_uri()); ?>/assets/images/bphd-min.webp" alt="Image">
                     </div>
-                    <div class="advanced-analytics-content" style="font-size:18px;">
+                    <div class="advanced-analytics-content plc-40" style="font-size:18px;">
                         <ul class="products-service-ul">
                             <li>
                                 <i class="ri-check-line"></i>
@@ -131,38 +129,38 @@ get_header();
 
                     <div class="advanced-analytics-content" style="font-size:18px;">
                         <ul class="products-service-ul mt-0 services-listed">
-                            <li class="about-img mb-0">
+                            <li class="about-img mb-0 timelinetext">
                                 <h5>Consultation</h5>
                                 <p>
                                     We begin by actively listening to your needs and requirements, ensuring a comprehensive understanding of your vision.
                                 </p>
                             </li>
-                            <li class="about-img mb-0">
+                            <li class="about-img mb-0 timelinetext">
                                 <h5>Design</h5>
                                 <p>
                                     Our team of expert artisans collaborate close with you and offer personalized guidance during the design phase.
                                 </p>
                                 <img src="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/design-1.png" style="height: 100%;">
                             </li>
-                            <li class="about-img mb-0">
+                            <li class="about-img mb-0 timelinetext">
                                 <h5>Manufacturing</h5>
                                 <p>
                                     We guarantee quality at every stage of the manufacturing process, utilizing cutting-edge technology and maintaining rigorous quality control measures.
                                 </p>
                             </li>
-                            <li class="about-img mb-0">
+                            <li class="about-img mb-0 timelinetext">
                                 <h5>Project Management</h5>
                                 <p>
                                     We maintain transparent and proactive communication, keeping you informed of project progress and promptly addressing any concerns.
                                 </p>
                             </li>
-                            <li class="about-img mb-0">
+                            <li class="about-img mb-0 timelinetext">
                                 <h5>Installation Support</h5>
                                 <p>
                                     We provide technical assistance for installation and supply our customers with a list of Certified Installers from our Distribution Network.
                                 </p>
                             </li>
-                            <li class="about-img-rounder mb-0">
+                            <li class="about-img-rounder mb-0 timelinetext">
                                 <h5>Maintenance Support</h5>
                                 <p>
                                     We provide technical assistance on maintenance and repairs and supply our customers with a list of Certified Repair Technicians from our Network.
@@ -219,7 +217,7 @@ get_header();
             <div class="white-title pb-100">
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/signature.png" class="text-black"></img>
 
-                <h2 class="text-end" style="font-size: 80px;">CJ RUSH Solutions</h2>
+                <h2 class="text-end solutiontxt">CJ RUSH Solutions</h2>
             </div>
 
             <div class="row">
@@ -300,6 +298,36 @@ get_header();
     }
     .pb-35{
         padding-bottom: 35px;
+    }
+
+    .plc-40{
+        padding-left:40px;
+    }
+    .solutiontxt{
+        font-size: 80px;
+    }
+
+    @media only screen and (max-width: 767px)
+    {
+    .solutiontxt{
+        font-size: 39px;
+    }
+
+    .plc-40{
+        padding-left:0px;
+    }
+    .about-img{
+        border-left:none;
+    }
+    .about-img-rounder{
+        text-align:center;
+    }
+    .about-img-rounder::before{
+        display: none;
+    }
+    .timelinetext{
+        padding-left:0px !important;
+    }
     }
 </style>
 <?php
