@@ -51,10 +51,10 @@ get_header();
             <?php get_template_part('./template-parts/timeline'); ?>
 
             <div class="download-btn">
-                <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn" style="margin-right:40px;">
+                <a href="<?php echo site_url('contact-us');?>" class="default-btn" style="margin-right:40px;">
                     WORK WITH US
                 </a>
-                <a href="<?php echo site_url('products-services');?>" target="_blank" class="default-btn google">
+                <a href="<?php echo site_url('products-services');?>" class="default-btn google">
                     VIEW PRODUCTS
                 </a>
             </div>
