@@ -81,7 +81,7 @@ Customer Reviews Area Style
   z-index: 1;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   display: grid;
-  grid-template-rows: 380px 130px;
+  grid-template-rows: 400px 130px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -138,11 +138,20 @@ Responsive Area Style
     padding: 20px;
   }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .single-customer-reviews.single-customer-reviews-style-two{
+    display: grid;
+    grid-template-rows: 500px 130px;
+  }
+}
 /* Min width 992px to Max width 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-customer-reviews {
     padding: 20px;
+  }
+  .single-customer-reviews.single-customer-reviews-style-two{
+    display: grid;
+    grid-template-rows: 500px 130px;
   }
 }
 
