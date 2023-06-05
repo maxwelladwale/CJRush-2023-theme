@@ -244,7 +244,7 @@ get_header();
                 <ul class="products-service-ul">
                     <li>
                         <i class="ri-check-line"></i>
-                        Replacement or restoration of period doors (while maintaining aesthetic and façade)
+                        Replacement or restoration of period doors, preserving the original façade
                     </li>
                     <li>
                         <i class="ri-check-line"></i>
