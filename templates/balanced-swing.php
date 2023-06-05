@@ -35,7 +35,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
-                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image">
+                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
@@ -156,7 +156,7 @@ get_header();
                 </div>
 
                 <div class="col-lg-6 text-center">
-                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
+                    <img class="full-height pt-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
-                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
+                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
