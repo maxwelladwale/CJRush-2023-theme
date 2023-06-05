@@ -91,7 +91,7 @@
 <div class="copy-right-area bg-dark">
     <div class="container">
         <p class="text-white">
-            Copyright @2023 CJRush.
+            Copyright © 2023 CJRush.
 
         </p>
     </div>
