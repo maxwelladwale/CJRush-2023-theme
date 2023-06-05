@@ -279,10 +279,12 @@ get_header();
     <!-- End Signature Area -->
 
 <style>
-    @media only screen and (max-width: 810px){
-        .about-img-rounder{
-        margin-left:0px;
-       } 
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        .about-img-rounder {
+        text-align: center;
+        margin: auto;
+        margin-left: 26px;
+        }
     }
     
 
@@ -325,24 +327,22 @@ get_header();
     }
     .about-img{
         border-left:none;
+        text-align:start;
     }
     .about-img-rounder{
-        text-align:center;
+        text-align:start;
+        margin-left:0px;
     }
     .about-img-rounder::before{
         display: none;
     }
     .timelinetext{
         padding-left:0px !important;
+        text-align:start;
     }
     }
 
-    @media only screen and (max-width: 810px){
-       .about-img-rounder{
-        text-align:center;
-        margin-left:26px;
-       } 
-    }
+
 </style>
 <?php
 
