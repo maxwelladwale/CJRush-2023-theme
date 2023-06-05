@@ -83,5 +83,16 @@
         .abut-img-300::before{
             display:none;
         }
+        .download-btn{
+            display:flex;
+            flex:fit-content;
+        }
+    }
+
+    @media only screen and (max-width: 600px){
+        .download-btn{
+            display: flex;
+            flex:fit-content;
+        }
     }
 </style>
