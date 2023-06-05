@@ -119,7 +119,7 @@ get_header();
                         Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
                     </p>
                     <div class="download-btn pb-5 pt-5">
-                        <a href="<?php echo site_url('contact-us');?>" target="_blank" class="default-btn">
+                        <a href="#quote" class="default-btn">
                             REQUEST QUOTE
                         </a>
                     </div>
