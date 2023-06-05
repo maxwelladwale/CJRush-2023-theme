@@ -11,7 +11,7 @@
 
 <div class="row">
 
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-sm-12">
         <div class="about-content ml-15 pb-22">
             <p>
                 Founded in 1965, CJ Rush quickly became a globally renowned designer and manufacturer of commercial entrance systems. To this day, CJ Rush doors can be found in some of the world's most prestigious buildings, such as the Rockefeller Center, Federal Reserve of Boston, Harvard Medical School and even the Capital One Arena. These entrances are architectural masterpieces in themselves, reflecting the excellence and unparalleled craftsmanship that CJ Rush is known for.
@@ -40,7 +40,7 @@
     </div>
 
 
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-sm-12 timeline-start">
         <div class="about-img mr-15 pb-20 abut-img-300">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/1st image-min.webp" alt="cjrush-timeline-image">
         </div>
@@ -68,5 +68,20 @@
     }
     .abut-img-300 img{
         height: 250px !important;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        .abut-img-300{
+            border-left:none;
+            padding:0;
+            
+        }
+        .timeline-start{
+            display:flex;
+            flex-direction:row;
+        }
+        .abut-img-300::before{
+            display:none;
+        }
     }
 </style>
