@@ -91,7 +91,7 @@ get_header();
             <div class="container">
                 <div class="why-choose-bg ptb-100 border-0">
                     <div class="row align-items-center justify-content-around">
-                        <h3 class="pb-100 justify-content-center text-uppercase text-center">Achieving equilibrium for smooth and easy operation</h3>
+                        <h3 class="pb-100 justify-content-center text-center">Achieving equilibrium for smooth and easy operation</h3>
                         <div class="col-lg-6 mb-3 mb-lg-4">
                             <h4 class="text-center">CONVENTIONAL HINGED DOOR</h4>
                         </div>
@@ -116,7 +116,7 @@ get_header();
     </section>
 
     <!-- Start of Perfected Design Section -->
-    <section class="rev-doors classic-door pb-100 pt-100">
+    <section class="rev-doors classic-door pb-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

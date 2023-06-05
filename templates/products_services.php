@@ -279,6 +279,13 @@ get_header();
     <!-- End Signature Area -->
 
 <style>
+    @media only screen and (max-width: 810px){
+        .about-img-rounder{
+        margin-left:0px;
+       } 
+    }
+    
+
     .single-benefit-our-software>h4
     {
         color:white;
@@ -328,6 +335,13 @@ get_header();
     .timelinetext{
         padding-left:0px !important;
     }
+    }
+
+    @media only screen and (max-width: 810px){
+       .about-img-rounder{
+        text-align:center;
+        margin-left:26px;
+       } 
     }
 </style>
 <?php
