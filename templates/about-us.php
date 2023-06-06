@@ -95,8 +95,6 @@ get_header();
             }
 
         }
-
-
     </style>
 <?php
 
