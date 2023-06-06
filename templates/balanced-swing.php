@@ -34,7 +34,7 @@ get_header();
     <section class="rev-doors classic-door pt-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 swingimage">
                     <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image">
                 </div>
 
@@ -155,7 +155,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 swingimage">
                     <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
                 </div>
             </div>
@@ -167,7 +167,7 @@ get_header();
     <section class="rev-doors classic-door pb-100 green-bg pt-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 swingimage">
                     <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
                 </div>
 
@@ -216,6 +216,9 @@ get_header();
     <!-- End of Free Flowing Spirit Section -->
 
     <style>
+        .swingimage{
+            text-align:center;
+        }
         .green-bg {
             background-color: #EFFFFD;
         }
@@ -225,6 +228,9 @@ get_header();
         
         @media only screen and (max-width: 991px)
         {
+            .swingimage{
+                text-align:inherit;
+            }
             .mid-swing{
             flex-direction:column-reverse;
             }
