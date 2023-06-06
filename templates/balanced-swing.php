@@ -31,7 +31,7 @@ get_header();
         </div>
     </div>
     <!-- Start of Free Flowing Spirit Section -->
-    <section class="rev-doors classic-door pb-100 pt-100">
+    <section class="rev-doors classic-door pt-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
@@ -47,7 +47,7 @@ get_header();
                         <p>
                             Say goodbye to heavy doors trapped in perpetual wind tunnels. These cleverly designed CJ Rush balanced doors utilize the pressure differential between inside and outside air to make door operation a breeze.
                         </p>
-                        <div class="advanced-analytics-content">
+                        <div class="advanced-analytics-content pb-22">
                             <ul>
                                 <p><b>High-Level Specifications</b></p>
                                 <li>
@@ -118,7 +118,7 @@ get_header();
     <!-- Start of Perfected Design Section -->
     <section class="rev-doors classic-door pb-100">
         <div class="container">
-            <div class="row">
+            <div class="row mid-swing">
                 <div class="col-lg-6">
                     <div class="about-content revolving-div ml-15">
                         <div class="section-title">
@@ -156,7 +156,7 @@ get_header();
                 </div>
 
                 <div class="col-lg-6 text-center">
-                    <img class="full-height pt-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
+                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
                 </div>
             </div>
         </div>
@@ -222,6 +222,22 @@ get_header();
         .full-height{
             height: 100% !important;
         }
+        
+        @media only screen and (max-width: 810px)
+        {
+            .mid-swing{
+            flex-direction:column-reverse;
+            }
+            .revolving-div a{
+                margin-top: 20px;
+            }
+        }
+
+        .revolving-div>a{
+            margin-top: 40px;
+        }
+
+        
     </style>
 <?php
 
