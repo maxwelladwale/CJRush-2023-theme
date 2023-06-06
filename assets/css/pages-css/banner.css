@@ -291,6 +291,9 @@ Responsive Area Style
     position: initial;
     text-align: center;
   }
+  .banner-area .banner-img img{
+    min-width: 100%;
+  }
   .banner-area .shape {
     display: none;
   }
