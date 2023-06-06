@@ -51,7 +51,7 @@ get_header();
             <?php get_template_part('./template-parts/timeline'); ?>
 
             <div class="download-btn">
-                <a href="<?php echo site_url('contact-us');?>" class="default-btn" style="margin-right:40px;">
+                <a href="<?php echo site_url('contact-us');?>" class="default-btn">
                     WORK WITH US
                 </a>
                 <a href="<?php echo site_url('products-services');?>" class="default-btn google">
@@ -68,6 +68,9 @@ get_header();
             display:flex;
             flex-direction:row;
         }
+        .download-btn a {
+            margin-right:40px;
+        }
         @media only screen and (max-width: 600px) {
             .desc-2021 {
                 margin-top: var(--bs-gutter-y);
@@ -80,6 +83,15 @@ get_header();
             .year-desc {
                 justify-content:center;
                 padding-top: 10px;
+            }
+            .download-btn{
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            }
+            .download-btn a {
+                margin-bottom: 20px;
+                margin-right: 0px;
             }
 
         }
