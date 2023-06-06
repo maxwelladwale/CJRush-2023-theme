@@ -285,7 +285,7 @@ Responsive Area Style
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-area {
     padding-bottom: 60px;
-    padding-top: 120px;
+    padding-top: 50px;
   }
   .banner-area .banner-img {
     position: initial;
@@ -330,6 +330,9 @@ Responsive Area Style
     margin: auto;
     margin-bottom: 30px;
   }
+  .banner-content .get-started-free-form .form-control{
+    padding-right: 260px;
+  }
 }
 
 /* Min width 1200px to Max width 1350px */
@@ -337,6 +340,9 @@ Responsive Area Style
   .banner-area .banner-img {
     top: 150px;
     max-width: 500px;
+  }
+  .banner-content .get-started-free-form .form-control{
+    padding-right: 260px;
   }
 }
 

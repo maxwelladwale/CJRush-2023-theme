@@ -141,7 +141,7 @@ get_header();
 								</li>
 								<li>
 									<i class="ri-check-line"></i>
-									Faster installation than industry standard
+									Faster Installation Than Industry Standard
 								</li>
 							</ul>
 						</div>
@@ -156,7 +156,7 @@ get_header();
 		<section class="counter-area ptb-70">
 			<div class="container">
 				<h2 style="text-align: center;margin-bottom: 40px;">Open the door to a world of possibilities</h2>
-				<div class="counter-bg pt-100 pb-70">
+				<div class="counter-bg ptb-100">
 					<div class="row">
 						<div class="col-lg-3 col-sm-6">
 							<div class="single-counter">
@@ -313,7 +313,7 @@ get_header();
 		<section class="green-pledge-area">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-3 col-lg-3 green_pledge_img">
+					<div class="col-sm-12 col-md-3 col-lg-3 green_pledge_img d-flex flex-column justify-content-center">
 						<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/cjpledge.png" alt="Image">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 row green_pledge_text">
