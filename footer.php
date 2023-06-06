@@ -71,7 +71,7 @@
                     <h3>Talk to us!</h3>
                     <!-- <p>Don’t miss our future updates! Get Subscribed now!</p> -->
 
-                    <form class="newsletter-form" data-toggle="validator" novalidate="true">
+                    <!-- <form class="newsletter-form" data-toggle="validator" novalidate="true">
                         <input type="email" class="form-control" placeholder="Your email address" name="EMAIL" required="" autocomplete="off">
 
                         <button class="default-btn disabled" type="submit" style="pointer-events: all; cursor: pointer;">
@@ -79,7 +79,8 @@
                         </button>
 
                         <div id="validator-newsletter" class="form-result"></div>
-                    </form>	
+                    </form>	 -->
+                    <?php  echo do_shortcode('[wpforms id="2355"]'); ?>
                 </div>
             </div>
         </div>

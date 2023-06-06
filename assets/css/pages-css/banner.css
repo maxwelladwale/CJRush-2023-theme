@@ -104,21 +104,25 @@ Banner Area Style
 }
 
 .banner-content .get-started-free-form .form-control {
+  color: var(--main-color);
+  padding: 0 !important;
+}
+
+.wpforms-field-container .form-control input{
   background-color: var(--white-color);
   height: 60px;
   border-radius: 8px;
-  border: 1px solid;
+  border: 1px solid var(--main-color) !important;
+  max-width: 100% !important;
 }
 
-.banner-content .get-started-free-form .submit-button {
-  position: absolute;
-  top: 3px;
-  right: 4px;
+.wpforms-field-container .form-control input:hover{
+  border: 1px solid var(--main-color) !important;
+  box-shadow: none !important;
 }
-
-.banner-content .get-started-free-form .submit-button.default-btn {
-  height: 54px;
-  border-radius: 8px;
+.wpforms-field-container .form-control input:focus{
+  border: 2px solid var(--main-color) !important;
+  box-shadow: none !important;
 }
 
 /*
@@ -281,7 +285,7 @@ Responsive Area Style
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-area {
     padding-bottom: 60px;
-    padding-top: 120px;
+    padding-top: 50px;
   }
   .banner-area .banner-img {
     position: initial;
@@ -326,6 +330,9 @@ Responsive Area Style
     margin: auto;
     margin-bottom: 30px;
   }
+  .banner-content .get-started-free-form .form-control{
+    padding-right: 260px;
+  }
 }
 
 /* Min width 1200px to Max width 1350px */
@@ -333,6 +340,9 @@ Responsive Area Style
   .banner-area .banner-img {
     top: 150px;
     max-width: 500px;
+  }
+  .banner-content .get-started-free-form .form-control{
+    padding-right: 260px;
   }
 }
 
