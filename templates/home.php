@@ -22,12 +22,13 @@ get_header();
 								<h1>Premier Entrance Systems For Instant Curb Appeal</h1>
 								<p>CJ Rush manufactures tailor-made doors that grace the world’s most iconic buildings – Rockefeller Center, Harvard Medical School and Capital One Arena to name a few.</p>
 	
-								<form class="get-started-free-form">
+								<!-- <form class="get-started-free-form">
 									<input type="email" class="form-control" name="email" placeholder="Enter your email address">
 									<button class="submit-button default-btn" type="submit">
 										REQUEST A QUOTE
 									</button>
-								</form>
+								</form> -->
+								<?php  echo do_shortcode('[wpforms id="2357"]'); ?>
 								
 								<!-- <div class="home_bannerbtn">
 									<a href="about-us.html" class="default-btn">
