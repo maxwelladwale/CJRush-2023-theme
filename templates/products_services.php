@@ -109,17 +109,19 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="section-title white-title">
-                        <h2 class="text-black text-start">Exceptional Customer Service from Start to Finish</h2>
-                    </div>
+                    <div class="sticking">
+                        <div class="section-title white-title">
+                            <h2 class="text-black text-start">Exceptional Customer Service from Start to Finish</h2>
+                        </div>
 
-                    <p>
-                        Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
-                    </p>
-                    <div class="download-btn pb-5 pt-5">
-                        <a href="#quote" class="default-btn">
-                            REQUEST QUOTE
-                        </a>
+                        <p>
+                            Delivering impeccable results that exceed your expectations is our top priority. The renowned white-glove service we provide on every job is not merely a promise but an unwavering commitment that permeates every aspect of our work.
+                        </p>
+                        <div class="download-btn pb-5 pt-5">
+                            <a href="#quote" class="default-btn">
+                                REQUEST QUOTE
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -286,7 +288,11 @@ get_header();
         margin-left: 26px;
         }
     }
-    
+    .sticking {
+  position: sticky;
+  top: 116px;
+  left: 0;
+}
 
     .single-benefit-our-software>h4
     {

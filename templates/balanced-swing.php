@@ -223,7 +223,7 @@ get_header();
             height: 100% !important;
         }
         
-        @media only screen and (max-width: 810px)
+        @media only screen and (max-width: 991px)
         {
             .mid-swing{
             flex-direction:column-reverse;
