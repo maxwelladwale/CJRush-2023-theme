@@ -34,7 +34,7 @@
         <div class="container">
             <div class="mobile-responsive-menu">
                 <div class="logo">
-                    <a href="">
+                    <a href="<?php site_url()?>/home">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.png" alt="CJRushlogo">
                     </a>
 
