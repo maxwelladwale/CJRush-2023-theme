@@ -15,8 +15,8 @@ get_header();
 
 
     <!-- Start Page Title Area -->
-    <div class="page-title-area" style="background-color: #EFFFFD;>
-			<div class=" container">
+    <div class="page-title-area green-bg">
+			<div class="container">
     <div class="page-title-content">
         <h2>About Us</h2>
 
@@ -95,6 +95,8 @@ get_header();
             }
 
         }
+
+
     </style>
 <?php
 
