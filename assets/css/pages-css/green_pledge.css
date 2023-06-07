@@ -5,7 +5,10 @@
 .green_pledge_img img{
     width: 50%;
 }
-
+.cgreen-h2{
+    font-size: 46px;
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .green-pledge-area{
         background-color: #EFFFFD;
@@ -23,7 +26,9 @@
     .green_pledge_text p{
         text-align: center;
     } 
-
+    .cgreen-h2{
+        line-height: 46px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .green_pledge_img img{

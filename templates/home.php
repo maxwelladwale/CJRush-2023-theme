@@ -318,7 +318,7 @@ get_header();
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 row green_pledge_text">
 						<div class="col-xs-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center">
-							<h2 style="font-size: 46px; text-align: center">CJ RUSH GREEN PLEDGE</h2>
+							<h2 class="cgreen-h2">CJ RUSH GREEN PLEDGE</h2>
 							<p>Lowering your energy bill and saving our planet</p>
 						</div>
 						<div class="col-xs-12 col-md-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">
