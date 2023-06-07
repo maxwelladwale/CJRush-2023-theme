@@ -283,10 +283,12 @@ get_header();
 <style>
     @media only screen and (min-width: 768px) and (max-width: 991px){
         .about-img-rounder {
-        text-align: center;
         margin: auto;
         margin-left: 26px;
         }
+    }
+    .timelinetext{
+        text-align:start;
     }
     .sticking {
   position: sticky;
