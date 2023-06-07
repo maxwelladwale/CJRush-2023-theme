@@ -70,6 +70,7 @@ get_header();
         }
         .download-btn a {
             margin-right:40px;
+            margin-left: 1rem;
         }
         @media only screen and (max-width: 600px) {
             .desc-2021 {
@@ -86,12 +87,14 @@ get_header();
             }
             .download-btn{
             flex-direction: column;
-            justify-content: center;
-            align-items: stretch;
+            align-items: center;
             }
             .download-btn a {
                 margin-bottom: 20px;
                 margin-right: 0px;
+                width: 56%;
+                align-items: center;
+                margin-left: 0px;
             }
 
         }
