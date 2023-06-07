@@ -183,7 +183,7 @@ height: 210px;
 
 .about-content .default-btn {
 
-  margin-top: 20px;
+  margin-top: 50px;
 
 }
 
@@ -301,6 +301,8 @@ Responsive Area Style
 
   .about-img {
 
+    text-align: center;
+
     margin-bottom: 30px;
 
     border-left: none;
@@ -341,6 +343,9 @@ Responsive Area Style
   }
 
   .about-img {
+
+    text-align: center;
+
     margin: auto;
 
     margin-left: 26px;
