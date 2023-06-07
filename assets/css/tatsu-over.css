@@ -1,0 +1,62 @@
+#wpforms-submit-441 {
+    font-size: 18px;
+    color: var(--black-color);
+    font-weight: 600;
+    line-height: 1;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-table;
+    padding: 15px 35px;
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    }
+    
+    #wpforms-submit-441::before, #wpforms-submit-441::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 51%;
+        height: 0;
+        background-color: var(--heading-color);
+        z-index: -1;
+        -webkit-transition: var(--transition);
+        transition: var(--transition);
+    
+    }
+    
+    #wpforms-submit-441::after {
+      top: auto;
+      bottom: 0;
+      left: auto;
+      right: 0;
+    }
+    
+    #wpforms-submit-441:hover {
+        color: var(--white-color);
+    }
+    
+    #wpforms-submit-441:hover::before {
+        height: 100%;
+        top: auto;
+        bottom: 0;
+    }
+    
+    #wpforms-submit-441:hover::after {
+      height: 100%;
+      bottom: auto;
+      top: 0;
+    }
+    
+    
+    body{
+        line-height: var(--bs-body-line-height) !important;
+    }
+    
+    table{
+        table-layout:auto !important;
+    }
