@@ -59,7 +59,7 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="<?php echo site_url('/products-services');?>" class="nav-link">
+                            <a href="<?php echo site_url('/products-services');?>" class="nav-link" id="prod-serve">
                                 Product & Services
                                 <i class="ri-arrow-down-s-line"></i>
                             </a>
