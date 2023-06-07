@@ -145,14 +145,18 @@ get_header();
                         </a>
                     </td>
                     <td>
-                        <button class="submit-button default-btn mt-3" type="submit">
-                            LEARN MORE
-                        </button>
+                        <a href="#contemporary_doors">
+                            <button class="submit-button default-btn mt-3" type="submit">
+                                LEARN MORE
+                            </button>
+                        </a>
                     </td>
                     <td>
-                        <button class="submit-button default-btn mt-3" type="submit">
-                            LEARN MORE
-                        </button>
+                        <a href="#security_doors">
+                            <button class="submit-button default-btn mt-3" type="submit">
+                                LEARN MORE
+                            </button>
+                        </a>
                     </td>
                 </tr>
                 </tbody>
@@ -245,7 +249,7 @@ get_header();
     <!-- End of Classic Revolving Doors Section -->
 
         <!-- Start of Contemporary revolving doors Section -->
-    <section class="rev-doors contemporary-doors ptb-100">
+    <section class="rev-doors contemporary-doors ptb-100" id="contemporary_doors">
         <div class="container">
             <div class="row">
                 <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
@@ -300,7 +304,7 @@ get_header();
     <!-- End of Contemporary revolving doors Section -->
 
         <!-- Start of Security revolving doors Section -->
-        <section class="rev-doors security-doors ptb-100">
+        <section class="rev-doors security-doors ptb-100" id="security_doors">
         <div class="container">
             <div class="row">
                 <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->

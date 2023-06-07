@@ -313,12 +313,12 @@ get_header();
 		<section class="green-pledge-area">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-3 col-lg-3 green_pledge_img d-flex flex-column justify-content-center">
+					<div class="col-sm-12 col-md-3 col-lg-3 green_pledge_img d-flex flex-column justify-content-center align-items-center">
 						<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/cjpledge.png" alt="Image">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 row green_pledge_text">
 						<div class="col-xs-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center">
-							<h2 style="font-size: 46px;">CJ RUSH GREEN PLEDGE</h2>
+							<h2 style="font-size: 46px; text-align: center">CJ RUSH GREEN PLEDGE</h2>
 							<p>Lowering your energy bill and saving our planet</p>
 						</div>
 						<div class="col-xs-12 col-md-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">

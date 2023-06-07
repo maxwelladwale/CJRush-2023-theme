@@ -246,7 +246,7 @@ Responsive Area Style
 @media only screen and (max-width: 767px) {
   .banner-area {
     padding-bottom: 60px;
-    padding-top: 120px;
+    padding-top: 50px;
   }
   .banner-area .banner-img {
     position: initial;

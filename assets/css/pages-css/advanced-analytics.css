@@ -82,7 +82,8 @@ Responsive Area Style
     text-align: center;
   }
   .advanced-analytics-img {
-    margin-bottom: 30px;
+    margin-bottom: -80px;
+    margin-top: -50px;
   }
 }
 
