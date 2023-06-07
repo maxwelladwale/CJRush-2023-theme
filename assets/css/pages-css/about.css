@@ -20,12 +20,11 @@ About Area Style
   padding-bottom: 20px;
 
   border-left: 1px solid black;
-
-
-
 }
 
-
+.green-bg {
+  background-color: #EFFFFD !important;
+}
 
 .about-img .about-shape {
 

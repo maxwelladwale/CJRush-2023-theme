@@ -219,9 +219,7 @@ get_header();
         .swingimage{
             text-align:center;
         }
-        .green-bg {
-            background-color: #EFFFFD;
-        }
+        
         .full-height{
             height: 100% !important;
         }
