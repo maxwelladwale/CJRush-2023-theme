@@ -198,15 +198,14 @@ get_header();
     <section class="rev-doors classic-door pb-100">
         <div class="container">
             <div class="row">
-                <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
-                <div class="col-lg-6 text-center">
+=                <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
                     <div class="about-content revolving-div ml-15">
                         <div class="section-title">
-                            <span>Classic Revolving Doors</span>
+                            <span>Classic revolving doors</span>
                             <h2>Affordable & Versatile</h2>
                         </div>
                         <p>Innovative, low maintenance, and environmentally friendly manual revolving doors designed for many commercial applications, offering enhanced energy efficiency, comfort, and long-lasting durability.</p>
@@ -244,8 +243,6 @@ get_header();
     <section class="rev-doors contemporary-doors ptb-100" id="contemporary_doors">
         <div class="container">
             <div class="row">
-                <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
-
                 <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Contemporary-revolving-door.jpg" alt="Image">
                 </div>
@@ -299,8 +296,6 @@ get_header();
         <section class="rev-doors security-doors ptb-100" id="security_doors">
         <div class="container">
             <div class="row">
-                <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
-
                 <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Security-revolving.jpg" alt="Image">
                 </div>
