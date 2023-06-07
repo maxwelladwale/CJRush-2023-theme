@@ -127,14 +127,6 @@ get_header();
                         </ul>
                     </td>
                 </tr>
-                <tr>
-                    <th scope="row"><p><b>Applications</b></p></th>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <p class="text-start">Tailgating prevention Piggybacking prevention Simultaneous, bi-directional traffic Ideal for unmanned, high traffic entrances Bulletproof glass Hours of operation</p>
-                    </td>
-                </tr>
                 <tr class="no-border-row">
                     <th scope="row"></th>
                     <td>
@@ -145,14 +137,18 @@ get_header();
                         </a>
                     </td>
                     <td>
-                        <button class="submit-button default-btn mt-3" type="submit">
-                            LEARN MORE
-                        </button>
+                        <a href="#contemporary_doors">
+                            <button class="submit-button default-btn mt-3" type="submit">
+                                LEARN MORE
+                            </button>
+                        </a>
                     </td>
                     <td>
-                        <button class="submit-button default-btn mt-3" type="submit">
-                            LEARN MORE
-                        </button>
+                        <a href="#security_doors">
+                            <button class="submit-button default-btn mt-3" type="submit">
+                                LEARN MORE
+                            </button>
+                        </a>
                     </td>
                 </tr>
                 </tbody>
@@ -245,7 +241,7 @@ get_header();
     <!-- End of Classic Revolving Doors Section -->
 
         <!-- Start of Contemporary revolving doors Section -->
-    <section class="rev-doors contemporary-doors ptb-100">
+    <section class="rev-doors contemporary-doors ptb-100" id="contemporary_doors">
         <div class="container">
             <div class="row">
                 <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
@@ -300,7 +296,7 @@ get_header();
     <!-- End of Contemporary revolving doors Section -->
 
         <!-- Start of Security revolving doors Section -->
-        <section class="rev-doors security-doors ptb-100">
+        <section class="rev-doors security-doors ptb-100" id="security_doors">
         <div class="container">
             <div class="row">
                 <!-- <h5 class="revolving-title">Classic Revolving Doors</h5> -->
