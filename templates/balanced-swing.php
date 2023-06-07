@@ -173,7 +173,7 @@ get_header();
 
                 <div class="col-lg-6">
                     <div class="about-content revolving-div ml-15">
-                        <div class="section-title">
+                        <div class="section-title mt-5">
                             <span>Swing doors | Pivot</span>
                             <h2>Free Flowing Spirit</h2>
                         </div>

@@ -127,14 +127,6 @@ get_header();
                         </ul>
                     </td>
                 </tr>
-                <tr>
-                    <th scope="row"><p><b>Applications</b></p></th>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <p class="text-start">Tailgating prevention Piggybacking prevention Simultaneous, bi-directional traffic Ideal for unmanned, high traffic entrances Bulletproof glass Hours of operation</p>
-                    </td>
-                </tr>
                 <tr class="no-border-row">
                     <th scope="row"></th>
                     <td>
