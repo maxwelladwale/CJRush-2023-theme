@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The template for displaying the home page
+ * The template for displaying the Revolving Doors
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -101,7 +101,7 @@ get_header();
                 <tr>
                     <th scope="row"><p><b>Suitable Sites</b></p></th>
                     <td>
-                        <ul class="">
+                        <ul class="text-start">
                             <li>Commercial offices</li>
                             <li>Restaurants</li>
                             <li>Medical centers</li>
@@ -110,7 +110,7 @@ get_header();
                         </ul>
                     </td>
                     <td>
-                        <ul>
+                        <ul class="text-start">
                             <li>Banks</li>
                             <li>Convention Centers</li>
                             <li>Hotels</li>
@@ -120,7 +120,7 @@ get_header();
                         </ul>
                     </td>
                     <td>
-                        <ul>
+                        <ul class="text-start">
                             <li>Government buildings</li>
                             <li>Insurance buildings</li>
                             <li>Large financial institutions</li>
