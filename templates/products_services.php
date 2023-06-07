@@ -62,7 +62,7 @@ get_header();
                             </li>
                         </ul>
                     </div>
-                    <div class="download-btn d-flex justify-content-center pb-5" style="padding-top:50px;">
+                    <div class="download-btn d-flex justify-content-center pb-5 lbtn">
                         <a href="<?php echo site_url('revolving-doors');?>" class="default-btn">
                             LEARN MORE
                         </a>
@@ -91,7 +91,7 @@ get_header();
                             </li>
                         </ul>
                     </div>
-                    <div class="download-btn d-flex justify-content-center pb-5"style="padding-top: 50px;">
+                    <div class="download-btn d-flex justify-content-center pb-5 lbtn">
                         <a href="<?php echo site_url('balanced-swing');?>" class="default-btn">
                             LEARN MORE
                         </a>
@@ -293,6 +293,9 @@ get_header();
   top: 116px;
   left: 0;
 }
+.lbtn{
+    padding-top:50px;
+}
 
     .single-benefit-our-software>h4
     {
@@ -348,6 +351,14 @@ get_header();
     }
     }
 
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+    .plc-40{
+            padding-left:70px;
+        }
+        .lbtn{
+            padding-top:0px;
+        }
+    }
 
 </style>
 <?php
