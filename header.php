@@ -12,7 +12,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title><?php wp_get_document_title(); ?></title>
+    <title><?php echo page_title(); ?></title>
 
     <?php wp_head();?>
 </head>
@@ -34,7 +34,7 @@
         <div class="container">
             <div class="mobile-responsive-menu">
                 <div class="logo">
-                    <a href="">
+                    <a href="<?php site_url()?>/home">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.png" alt="CJRushlogo">
                     </a>
 
