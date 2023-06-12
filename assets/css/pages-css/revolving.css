@@ -34,6 +34,11 @@
 .contemporary-doors{
     background-color: #EFFFFD;
 }
+
+tr>td{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
 @media only screen and (max-width: 600px) {
     .rev-doors .container .row .col-lg-6:last-child{
         margin-top: 30px;

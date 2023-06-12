@@ -47,6 +47,24 @@ Advanced Analytics Area Style
   color: var(--white-color);
 }
 
+.whycjlist ul li i{
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  color: var(--white-color);
+}
+.whycjlist ul li i::before{
+  position: absolute;
+  left: 6px;
+  font-size: 19px;
+  top: 0px;
+}
 .advanced-analytics-img {
   text-align: center;
 }
@@ -59,7 +77,12 @@ Advanced Analytics Area Style
   position: absolute;
   bottom: 0;
 }
-
+.advanced-analytics-img h1{
+  font-size: 40px;
+}
+.advanced-analytics-content.whycjlist ul li{
+  font-size: 22px;
+}
 /*
 Responsive Area Style
 ======================================================*/
@@ -82,8 +105,10 @@ Responsive Area Style
     text-align: center;
   }
   .advanced-analytics-img {
-    margin-bottom: -80px;
-    margin-top: -50px;
+    margin-top: 20px;
+  }
+  .whyimg{
+    display: none;
   }
 }
 
@@ -106,8 +131,14 @@ Responsive Area Style
     text-align: center;
   }
   .advanced-analytics-img {
-    margin-bottom: -120px;
-    margin-top: -120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .advanced-analytics-img h1{
+    font-size: 60px;
+  }
+  .whyimg{
+    display: none;
   }
 }
 
@@ -119,6 +150,9 @@ Responsive Area Style
     margin: auto;
     text-align: center;
     margin-top: 30px;
+  }
+  .advanced-analytics-img h1{
+    display: none;
   }
 }
 /*# sourceMappingURL=advanced-analytics.css.map */
