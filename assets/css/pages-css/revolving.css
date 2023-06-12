@@ -1,8 +1,8 @@
 .rev-doors .container .row .col-lg-6 .classic-revolving-img{
-    height: auto !important;
+    height: 100%;
 }
 .revolving-div p{
-    font-size: 24px !important;
+    font-size: 18px !important;
     font-weight: 400 !important;
 }
 .revolving-div .section-title {
@@ -12,7 +12,24 @@
 .revolving-div .section-title span{
     font-size: 24px !important;
 }
-
+.ri-check-line.rev-check{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    color: var(--white-color);
+}
+.ri-check-line.rev-check:before{
+    position: absolute;
+    left: 2px;
+    font-size: 15px;
+    top: -4px;
+}
 
 .contemporary-doors{
     background-color: #EFFFFD;
@@ -21,10 +38,16 @@
     .rev-doors .container .row .col-lg-6:last-child{
         margin-top: 30px;
     }
+    .rev-doors .container .row .col-lg-6 .classic-revolving-img{
+        height: 100% !important;
+    }
 }
 @media only screen and (min-width: 600px) {
     .rev-doors .container .row .col-lg-6:last-child{
-        margin-top: 30px;
+        /* margin-top: 30px; */
+    }
+    .rev-doors .container .row .col-lg-6 .classic-revolving-img{
+        height: 75% !important;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
