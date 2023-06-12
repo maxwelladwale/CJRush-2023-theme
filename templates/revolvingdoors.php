@@ -77,10 +77,10 @@ get_header();
                 <tr>
                     <th scope="row"><p><b>Description</b></p></th>
                     <td>
-                        <p>Foundational revolving doorwith classic framing and customization options</p>
+                        <p>Foundational revolving door with classic framing and customization options</p>
                     </td>
                     <td>
-                        <p>Classic style or modern, sleek, "all glass" look,with all the bells & whistles</p>
+                        <p>Classic style or modern, sleek, "all glass" look, with all the bells and whistles</p>
                     </td>
                     <td>
                         <p>Classic style door with access control and optional security enhancements</p>
@@ -178,7 +178,7 @@ get_header();
                             
                             <div class="col-lg-6">
                                 <?php
-                                echo do_shortcode('[custom_accordion title="Cladding" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Cladding.png" class="accordion-group"] Covers door surfaces, offering a sophisticated appearance with materials like stainless steel (stain/mirror) or muntz. [/custom_accordion]');
+                                echo do_shortcode('[custom_accordion title="Cladding" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Cladding.png" class="accordion-group"] Covers door surfaces, offering a sophisticated appearance with materials like stainless steel (satin/mirror) or muntz. [/custom_accordion]');
                                 echo do_shortcode('[custom_accordion title="Finishes" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Finishes.png" class="accordion-group"] Large variety of anodized and paint finishes available for a polished look. [/custom_accordion]');
                                 echo do_shortcode('[custom_accordion title="Floor Grills" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Floor-Grilling.png" class="accordion-group"] Facilitates efficient drainage of water, ice and snow through the floor of the revolving door to prevent slips and falls. [/custom_accordion]');
                                 echo do_shortcode('[custom_accordion title="Sweeps" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Sweeping.png" class="accordion-group"] Ensures cleanliness and temperature control by covering gaps and preventing air from escaping. [/custom_accordion]');
@@ -198,7 +198,7 @@ get_header();
     <section class="rev-doors classic-door pb-100">
         <div class="container">
             <div class="row">
-=                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner1.jpg" alt="Image">
                 </div>
 
@@ -213,19 +213,19 @@ get_header();
                             <ul>
                                 <p><b>High-Level Specifications</b></p>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Surface-mount design allows for seamless retrofitting and hassle-free installation
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Available with three or four wings
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Choose from a range of sizes up to 8' in diameter
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Custom fabrication and finishing options
                                 </li>
                             </ul>
@@ -243,11 +243,11 @@ get_header();
     <section class="rev-doors contemporary-doors ptb-100" id="contemporary_doors">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 d-flex align-items-stretch"">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Contemporary-revolving-door.jpg" alt="Image">
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex align-items-stretch"">
                     <div class="about-content revolving-div ml-15">
                         <div class="section-title">
                             <span>Contemporary revolving doors</span>
@@ -259,24 +259,24 @@ get_header();
                         <div class="advanced-analytics-content">
                             <ul>
                             <p><b>High-Level Specifications</b></p>
-                                <li>
-                                    <i class="ri-check-line"></i>
+                                <!-- <li>
+                                    <i class="ri-check-line rev-check"></i>
                                     Safest door in the industry with advanced sensors
-                                </li>
+                                </li> -->
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Concealed features for a clean, “all glass” look
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Available with three or four wings
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Standard and customizable sizes
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Custom fabrication and finishing options
                                 </li>
                             </ul>
@@ -313,19 +313,19 @@ get_header();
                             <ul>
                             <p><b>High-Level Specifications</b></p>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Anti-tailgating and optional anti-piggybacking detection using Time-of-Flight (TOF) technology
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Versatile one-way or two-way security options
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Advanced features such as PLC control pre-programmed to ANSI standards, bulletproof glass, single person detection, and entry / exit flow control
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Wireless phone app for monitoring and diagnostics
                                 </li>
                             </ul>

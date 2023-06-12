@@ -125,7 +125,7 @@ get_header();
                             <span>Swing doors | Hinged</span>
                             <h2>Perfected Design</h2>
                         </div>
-                        <p>CJ Rush has perfected the most ubiquitous door design in the world. Recognized by two to three hinges attached to the vertical long edge of the frame, these doors can be tailored to swing inward or outward.</p>
+                        <p>CJ Rush has perfected the most ubiquitous door design in the world. Recognized by individual hinges or a continuous hinge along the trailing edge of the frame, these doors can be tailored to swing inward or outward.</p>
                         <div class="advanced-analytics-content">
                             <ul>
                                 <li>
