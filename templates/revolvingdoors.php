@@ -199,7 +199,7 @@ get_header();
         <div class="container">
             <div class="row">
 =                <div class="col-lg-6 text-center">
-                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner.jpg" alt="Image">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner1.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
@@ -297,7 +297,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
-                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Security-revolving.jpg" alt="Image">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Security-Revolving-Doors1.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
