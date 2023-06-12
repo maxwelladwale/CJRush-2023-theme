@@ -45,7 +45,7 @@ get_header();
     <section class="about-area pb-100">
         <div class="container table-responsive cont">
 
-            <table class="table">
+            <table class="table doors-det">
                 <thead class="no-border-row">
                 <tr>
                     <th scope="col"></th>
@@ -107,6 +107,7 @@ get_header();
                             <li>Medical centers</li>
                             <li>Retail shops</li>
                             <li>Grocery stores</li>
+                            <li>Fitness studios</li>
                         </ul>
                     </td>
                     <td>
@@ -124,6 +125,8 @@ get_header();
                             <li>Government buildings</li>
                             <li>Insurance buildings</li>
                             <li>Large financial institutions</li>
+                            <li>Research labs</li>
+                            <li>Data centers</li>
                         </ul>
                     </td>
                 </tr>
