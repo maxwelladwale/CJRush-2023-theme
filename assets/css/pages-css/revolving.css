@@ -1,5 +1,5 @@
 .rev-doors .container .row .col-lg-6 .classic-revolving-img{
-    height: 100%;
+    height: 95%;
 }
 .revolving-div p{
     font-size: 18px !important;
@@ -26,7 +26,7 @@
 }
 .ri-check-line.rev-check:before{
     position: absolute;
-    left: 2px;
+    left: 3px;
     font-size: 15px;
     top: -4px;
 }
@@ -34,7 +34,12 @@
 .contemporary-doors{
     background-color: #EFFFFD;
 }
-
+.revolving-div .section-title{
+    margin: 0px 0px 0px 0px;
+}
+.about-content.revolving-div{
+    height: 95%;
+}
 tr>td{
     padding-top: 15px !important;
     padding-bottom: 15px !important;
@@ -43,18 +48,9 @@ tr>td{
     .rev-doors .container .row .col-lg-6:last-child{
         margin-top: 30px;
     }
-    .rev-doors .container .row .col-lg-6 .classic-revolving-img{
-        height: 100% !important;
-    }
+
 }
-@media only screen and (min-width: 600px) {
-    .rev-doors .container .row .col-lg-6:last-child{
-        /* margin-top: 30px; */
-    }
-    .rev-doors .container .row .col-lg-6 .classic-revolving-img{
-        height: 75% !important;
-    }
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .rev-doors .container .row .col-lg-6:last-child{
         margin-top: 30px;
