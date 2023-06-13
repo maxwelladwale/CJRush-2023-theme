@@ -35,7 +35,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 swingimage">
-                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image">
+                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image" style="height: 103% !important;">
                 </div>
 
                 <div class="col-lg-6">
