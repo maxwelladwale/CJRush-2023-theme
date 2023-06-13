@@ -35,11 +35,11 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 swingimage">
-                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image">
+                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/balanced.jpg" alt="Image" style="height: 103% !important;">
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start" style="height: 100%;">
                         <div class="section-title">
                             <span>Balanced doors</span>
                             <h2>Superior Performance</h2>
