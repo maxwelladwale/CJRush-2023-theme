@@ -39,7 +39,7 @@ get_header();
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start" style="height: 100%;">
                         <div class="section-title">
                             <span>Balanced doors</span>
                             <h2>Superior Performance</h2>
