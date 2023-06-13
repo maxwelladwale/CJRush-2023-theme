@@ -20,7 +20,7 @@ get_header();
 						<div class="rs-bg">
 							<div class="banner-content">
 								<h1>Premier Entrance Systems For Instant Curb Appeal</h1>
-								<p>CJ Rush manufactures tailor-made doors that grace the world’s most iconic buildings – Rockefeller Center, Harvard Medical School and Capital One Arena to name a few.</p>
+								<p>CJ Rush manufactures tailor-made doors that have graced the world's most iconic buildings, including the Rockefeller Center, Harvard Medical School, and the Capital One Arena.</p>
 	
 								<!-- <form class="get-started-free-form">
 									<input type="email" class="form-control" name="email" placeholder="Enter your email address">
