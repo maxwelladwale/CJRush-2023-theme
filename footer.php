@@ -34,7 +34,7 @@
                         </li>
                         <li>
                             <span class="text-white">Phone</span>
-                            <a href="tel:905-944-8005" class="text-white">905-944-8005</a>
+                            <a href="tel:+1(905)-944-8005" class="text-white">+1(905)-944-8005</a>
                         </li>
                     </ul>
                 </div>
@@ -92,7 +92,7 @@
 <div class="copy-right-area bg-dark">
     <div class="container">
         <p class="text-white">
-            Copyright © 2023 CJRush.
+            Copyright © 2023 CJ Rush.
 
         </p>
     </div>
