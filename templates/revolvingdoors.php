@@ -202,11 +202,11 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
-                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner1.jpg" alt="Image">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Revolving-door-banner2.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
                         <div class="section-title">
                             <span>Classic revolving doors</span>
                             <h2>Affordable & Versatile</h2>
@@ -233,7 +233,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>
@@ -247,11 +247,11 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-stretch"">
-                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Contemporary-revolving-door.jpg" alt="Image">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Contemporary-revolving-door2.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6 d-flex align-items-stretch"">
-                    <div class="about-content revolving-div ml-15">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
                         <div class="section-title">
                             <span>Contemporary revolving doors</span>
                             <h2>Sleek & Sophisticated</h2>
@@ -284,7 +284,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>
@@ -300,11 +300,11 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
-                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Security-Revolving-Doors1.jpg" alt="Image">
+                    <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Security-Revolving-Doors2.jpg" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
                         <div class="section-title">
                             <span>Security revolving doors</span>
                             <h2>Award Winning Safety</h2>
@@ -333,7 +333,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">REQUEST QUOTE</a>
+                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>

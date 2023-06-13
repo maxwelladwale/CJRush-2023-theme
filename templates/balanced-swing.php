@@ -39,7 +39,7 @@ get_header();
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
                         <div class="section-title">
                             <span>Balanced doors</span>
                             <h2>Superior Performance</h2>
@@ -51,32 +51,32 @@ get_header();
                             <ul>
                                 <p><b>High-Level Specifications</b></p>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Single or pair doors
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Custom dimensions available
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Tempered glass for enhanced durability
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Concealed door closer ensures clean look
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Snap-on covers eliminate visible screws in framing
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Various framing options available
                                 </li>
                             </ul>
                         </div>
-                        <a href="#quote" class="default-btn green_btn">REQUEST QUOTE</a>
+                        <a href="#quote" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>
@@ -120,7 +120,7 @@ get_header();
         <div class="container">
             <div class="row mid-swing">
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
                         <div class="section-title">
                             <span>Swing doors | Hinged</span>
                             <h2>Perfected Design</h2>
@@ -129,28 +129,28 @@ get_header();
                         <div class="advanced-analytics-content">
                             <ul>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Single or pair doors
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Individual or continuous hinges
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Cladded, painted or anodized finishes
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Custom dimensions available
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Tempered glass for enhanced durability
                                 </li>
                             </ul>
                         </div>
-                        <a href="#quote" class="default-btn green_btn">REQUEST QUOTE</a>
+                        <a href="#quote" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>
@@ -172,8 +172,8 @@ get_header();
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="about-content revolving-div ml-15">
-                        <div class="section-title mt-5">
+                    <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
+                        <div class="section-title">
                             <span>Swing doors | Pivot</span>
                             <h2>Free Flowing Spirit</h2>
                         </div>
@@ -185,28 +185,28 @@ get_header();
                                 <p><b>High-Level Specifications</b></p>
 
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Single or pair doors
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Center and off-center pivots positions
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Cladded, painted or anodized finishes
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Custom dimensions available
                                 </li>
                                 <li>
-                                    <i class="ri-check-line"></i>
+                                    <i class="ri-check-line rev-check"></i>
                                     Tempered glass for enhanced durability
                                 </li>
                             </ul>
                         </div>
-                        <a href="#quote" class="default-btn green_btn">REQUEST QUOTE</a>
+                        <a href="#quote" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>
