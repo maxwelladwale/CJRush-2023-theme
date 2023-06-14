@@ -126,7 +126,7 @@ get_header();
                             <h2>Perfected Design</h2>
                         </div>
                         <p>CJ Rush has perfected the most ubiquitous door design in the world. Recognized by individual hinges or a continuous hinge along the trailing edge of the frame, these doors can be tailored to swing inward or outward.</p>
-                        <div class="advanced-analytics-content">
+                        <div class="advanced-analytics-content pb-22">
                             <ul>
                                 <li>
                                     <i class="ri-check-line rev-check"></i>
@@ -155,8 +155,8 @@ get_header();
                     </div>
                 </div>
 
-                <div class="col-lg-6 swingimage" style="height: 38.5rem;">
-                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
+                <div class="col-lg-6 swingimage" style="height: 37.5rem;">
+                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@ get_header();
     <section class="rev-doors classic-door pb-100 green-bg pt-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 swingimage" style="height: 39.5rem;">
+                <div class="col-lg-6 swingimage" style="height: 41rem;">
                     <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
                 </div>
 
@@ -180,7 +180,7 @@ get_header();
                         <p>
                             CJ Rush pivot doors  are an excellent and stylish choice for applications that require a large opening with minimal floor space interruption. Pins at the top and bottom of the frame allow it to pivot rather than swing.
                         </p>
-                        <div class="advanced-analytics-content">
+                        <div class="advanced-analytics-content pb-22">
                             <ul>
                                 <p><b>High-Level Specifications</b></p>
 
