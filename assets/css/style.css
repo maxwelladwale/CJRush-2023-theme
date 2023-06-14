@@ -485,6 +485,12 @@ td button{
 /*====================================================
 OTHERS STYLE AREA
 =====================================================*/
+/* Button Bounce */
+.btn-bounced{
+  animation-name: bounce;
+  animation-duration: .5s;
+}
+
 /*
 Preloader Area Style*/
 .preloader {

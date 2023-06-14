@@ -225,10 +225,10 @@ get_header();
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                     <div class="">
-                        <p>
+                        <p style="font-size: 20px !important;">
                             CJ Rush has the capabilities to offer a wide variety of services to our customers, going beyond the ability to manufacture exceptional products.
                         </p>
-                        <p>
+                        <p style="font-size: 20px !important;">
                             See below for a selection of services. We can partner together and identify creative solutions for any and all of your requests, no matter how niche!                        </p>
                     </div>
                 </div>

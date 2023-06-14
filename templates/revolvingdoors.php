@@ -19,7 +19,7 @@ get_header();
         }
     </style>
     <!-- Start Page Title Area -->
-    <div class="page-title-area" style="background-color: #EFFFFD;>
+    <div class="page-title-area" style="background-color: #EFFFFD;">
 			<div class=" container">
     <div class="page-title-content">
         <h2>Revolving Doors</h2>
@@ -233,7 +233,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
+                        <a href="#quote" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>
@@ -284,8 +284,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
-
+                        <a href="#quote" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
                     </div>
                 </div>
 
@@ -333,8 +332,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
-
+                        <a href="#quote" id="lastRequestBtn" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
                     </div>
                 </div>
 

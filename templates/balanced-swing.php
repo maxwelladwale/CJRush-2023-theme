@@ -155,7 +155,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="col-lg-6 swingimage">
+                <div class="col-lg-6 swingimage" style="height: 38.5rem;">
                     <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/perfected-design.webp" alt="Image">
                 </div>
             </div>
@@ -167,8 +167,8 @@ get_header();
     <section class="rev-doors classic-door pb-100 green-bg pt-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 swingimage">
-                    <img class="full-height pb-22" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
+                <div class="col-lg-6 swingimage" style="height: 42rem; margin-top: 3rem;">
+                    <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
                 </div>
 
                 <div class="col-lg-6">
@@ -206,7 +206,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <a href="#quote" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
+                        <a href="#quote" id="lastRequestBtn" class="default-btn green_btn mt-auto">REQUEST QUOTE</a>
 
                     </div>
                 </div>

@@ -323,7 +323,7 @@ get_header();
 							<p class="cgreen-p">Lowering your energy bill and saving our planet</p>
 						</div>
 						<div class="col-xs-12 col-md-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">
-							<a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">
+							<a href="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/06/Revolving-Doors-The-Green-Solution.pdf" class="default-btn green_btn">
 								LEARN MORE
 							</a>
 						</div>
