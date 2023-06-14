@@ -167,7 +167,7 @@ get_header();
     <section class="rev-doors classic-door pb-100 green-bg pt-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 swingimage" style="height: 38.5rem;">
+                <div class="col-lg-6 swingimage" style="height: 39.5rem;">
                     <img class="full-height" src="<?php echo get_template_directory_uri(); ?>/assets/images/Freeflowing.webp" alt="Image">
                 </div>
 
