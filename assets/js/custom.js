@@ -248,4 +248,14 @@
 		$('.accordion-title').not($(this)).removeClass('active');		
 	});
 
+	// Button  Bounce Animation 
+	const lastRequestBtn = document.getElementById('lastRequestBtn');
+	lastRequestBtn.addEventListener("click", function(){
+		if(lastRequestBtn.classList.contains('btn-bounced')){
+			lastRequestBtn.classList.remove('btn-bounced');
+		} else {
+			lastRequestBtn.classList.add('btn-bounced');
+		}
+	})
+
 })(jQuery);
