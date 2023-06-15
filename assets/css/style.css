@@ -445,7 +445,7 @@ tr th{
 }
 
 .advanced-analytics-content ul li{
-  font-size: 24px;
+  font-size: 18px;
 }
 
 td button{
@@ -485,6 +485,12 @@ td button{
 /*====================================================
 OTHERS STYLE AREA
 =====================================================*/
+/* Button Bounce */
+.btn-bounced{
+  animation-name: bounce;
+  animation-duration: .5s;
+}
+
 /*
 Preloader Area Style*/
 .preloader {

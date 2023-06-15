@@ -20,7 +20,7 @@ get_header();
 						<div class="rs-bg">
 							<div class="banner-content">
 								<h1>Premier Entrance Systems For Instant Curb Appeal</h1>
-								<p>CJ Rush manufactures tailor-made doors that grace the world’s most iconic buildings – Rockefeller Center, Harvard Medical School and Capital One Arena to name a few.</p>
+								<p>CJ Rush manufactures tailor-made doors that have graced the world's most iconic buildings, including the Rockefeller Center, Harvard Medical School, and the Capital One Arena.</p>
 	
 								<!-- <form class="get-started-free-form">
 									<input type="email" class="form-control" name="email" placeholder="Enter your email address">
@@ -112,12 +112,13 @@ get_header();
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="advanced-analytics-img">
-							<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/why1.jpg" alt="Image">
+							<h1>Why <br>CJ Rush?</h1>
+							<img class="whyimg" src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/why1.jpg" alt="Image">
 						</div>
 					</div>
 
 					<div class="col-lg-6">
-						<div class="advanced-analytics-content">
+						<div class="advanced-analytics-content whycjlist">
 							<!-- <span>Why CJ RUSH</span> -->
 							<!-- <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 							<p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>   -->
@@ -322,7 +323,7 @@ get_header();
 							<p class="cgreen-p">Lowering your energy bill and saving our planet</p>
 						</div>
 						<div class="col-xs-12 col-md-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">
-							<a href="<?php echo site_url('/contact-us');?>" class="default-btn green_btn">
+							<a href="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/06/Revolving-Doors-The-Green-Solution.pdf" class="default-btn green_btn">
 								LEARN MORE
 							</a>
 						</div>

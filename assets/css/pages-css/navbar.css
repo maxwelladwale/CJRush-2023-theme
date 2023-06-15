@@ -489,6 +489,17 @@ Others Option For Responsive Area Style
 Navbar Responsive Area Style
 ======================================================*/
 /* Mobile and iPad Navbar */
+@media only screen and (max-width: 600px) {
+  .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.mean-expand {
+    width: 45% !important;
+    height: 28px;
+    text-align: right;
+    padding: 11px !important;
+    background: transparent !important;
+    border-left: none !important;
+    border-bottom: none !important;
+  }
+}
 @media only screen and (max-width: 991px) {
   .navbar-area {
     background-color: var(--white-color);
@@ -526,7 +537,7 @@ Navbar Responsive Area Style
     display: none;
   }
   .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.mean-expand {
-    width: 100%;
+    width: 60%;
     height: 28px;
     text-align: right;
     padding: 11px !important;

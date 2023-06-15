@@ -1,70 +1,143 @@
-/*
-Benefit Our Software Area Style
-======================================================*/
-.benefit-our-software-area {
-  position: relative;
-  z-index: 1;
-}
-
-.benefit-our-software-area .shape {
-  position: absolute;
-  z-index: -1;
-}
-
-.benefit-our-software-area .shape.software-shape-1 {
-  top: 50px;
-  left: 200px;
-}
-
-.benefit-our-software-area .shape.software-shape-2 {
-  bottom: 50px;
-  right: 50px;
-}
-
-.single-benefit-our-software {
-  background-color: var(--white-color);
-  text-align: center;
-  padding: 30px;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.single-benefit-our-software .software-icon {
-  margin-bottom: 20px;
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
-
-.single-benefit-our-software .software-icon::before {
-  content: "";
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  width: 120px;
-  height: 120px;
-  background-color: #f4f3fd;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.single-benefit-our-software h3 {
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-.single-benefit-our-software:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .single-benefit-our-software h3 {
-    font-size: 17px;
-  }
-}
+/*
+
+Benefit Our Software Area Style
+
+======================================================*/
+
+.benefit-our-software-area {
+
+  position: relative;
+
+  z-index: 1;
+
+}
+
+
+
+.benefit-our-software-area .shape {
+
+  position: absolute;
+
+  z-index: -1;
+
+}
+
+
+
+.benefit-our-software-area .shape.software-shape-1 {
+
+  top: 50px;
+
+  left: 200px;
+
+}
+
+
+
+.benefit-our-software-area .shape.software-shape-2 {
+
+  bottom: 50px;
+
+  right: 50px;
+
+}
+
+.single-benefit-cards{
+  display: flex;
+}
+
+.single-benefit-our-software {
+
+  background-color: var(--white-color);
+
+  text-align: center;
+
+  padding: 30px;
+
+  padding-top: 80px;
+
+  padding-bottom: 50px;
+
+  border-radius: 10px;
+
+  margin-bottom: 30px;
+
+  -webkit-transition: var(--transition);
+
+  transition: var(--transition);
+
+}
+
+.single-benefit-our-software>h4{
+  font-size: 24px;
+}
+
+.single-benefit-our-software .software-icon {
+
+  margin-bottom: 20px;
+
+  position: relative;
+
+  display: inline-block;
+
+  z-index: 1;
+
+}
+
+
+
+.single-benefit-our-software .software-icon::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: -30px;
+
+  left: -30px;
+
+  width: 120px;
+
+  height: 120px;
+
+  background-color: #f4f3fd;
+
+  border-radius: 50%;
+
+  z-index: -1;
+
+}
+
+
+
+.single-benefit-our-software h3 {
+
+  font-size: 20px;
+
+  margin-bottom: 0;
+
+}
+
+
+
+.single-benefit-our-software:hover {
+
+  -webkit-transform: translateY(-5px);
+
+          transform: translateY(-5px);
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .single-benefit-our-software h3 {
+
+    font-size: 17px;
+
+  }
+
+}
+
 /*# sourceMappingURL=benefit-our-software.css.map */

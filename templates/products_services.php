@@ -18,7 +18,7 @@ get_header();
     <div class="page-title-area" style="background-color: #EFFFFD;">
 			<div class="container">
     <div class="page-title-content">
-        <h2>Products and Services</h2>
+        <h2>Products & Services</h2>
 
         <ul>
             <li>
@@ -49,15 +49,15 @@ get_header();
                     <div class="advanced-analytics-content plc-40" style="font-size:18px;">
                         <ul class="products-service-ul">
                             <li>
-                                <i class="ri-check-line"></i>
+                                <i class="ri-check-line rev-check"></i>
                                 Superior Air Filtration Technology
                             </li>
                             <li>
-                                <i class="ri-check-line"></i>
+                                <i class="ri-check-line rev-check"></i>
                                 Maintains HVAC Integrity
                             </li>
                             <li>
-                                <i class="ri-check-line"></i>
+                                <i class="ri-check-line rev-check"></i>
                                 Maximizes Traffic Flow
                             </li>
                         </ul>
@@ -78,15 +78,15 @@ get_header();
                     <div class="advanced-analytics-content plc-40" style="font-size:18px;">
                         <ul class="products-service-ul">
                             <li>
-                                <i class="ri-check-line"></i>
+                                <i class="ri-check-line rev-check"></i>
                                 Maintains Stack Pressure
                             </li>
                             <li>
-                                <i class="ri-check-line"></i>
+                                <i class="ri-check-line rev-check"></i>
                                 Secure Without Being Heavy
                             </li>
                             <li>
-                                <i class="ri-check-line"></i>
+                                <i class="ri-check-line rev-check"></i>
                                 Controlled Movement
                             </li>
                         </ul>
@@ -184,10 +184,10 @@ get_header();
                 <h2 class="text-black">Bring your unique entryway vision to life</h2>
             </div>
 
-            <div class="row">
+            <div class="row single-benefit-cards">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-benefit-our-software bg-dark pe-0 ps-0">
-                        <h4 class="">Every element is custom designed</h4>
+                        <h4 class="">Every element is <br>custom designed</h4>
                     </div>
                 </div>
 
@@ -225,10 +225,10 @@ get_header();
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
                     <div class="">
-                        <p>
+                        <p style="font-size: 20px !important;">
                             CJ Rush has the capabilities to offer a wide variety of services to our customers, going beyond the ability to manufacture exceptional products.
                         </p>
-                        <p>
+                        <p style="font-size: 20px !important;">
                             See below for a selection of services. We can partner together and identify creative solutions for any and all of your requests, no matter how niche!                        </p>
                     </div>
                 </div>
@@ -243,36 +243,36 @@ get_header();
             <div class="advanced-analytics-content" style="font-size:18px;">
                 <ul class="products-service-ul">
                     <li>
-                        <i class="ri-check-line"></i>
+                        <i class="ri-check-line rev-check"></i>
                         Replacement or restoration of period doors, preserving the original façade
                     </li>
                     <li>
-                        <i class="ri-check-line"></i>
+                        <i class="ri-check-line rev-check"></i>
                         Restoration or replacement of vestibules, sidelights, and transoms
                     </li>
                     <li>
-                        <i class="ri-check-line"></i>
+                        <i class="ri-check-line rev-check"></i>
                         Cladding for all types of doors, columns, vestibules, sidelights, and transoms
                     </li>
 
                     <li>
-                        <i class="ri-check-line"></i>
-                        Refurbish most makes of revolvers to accommodate CJ Rush’s standard door wings, collapsing mechanism, and hardware
+                        <i class="ri-check-line rev-check"></i>
+                        Refurbishment of most makes of revolving doors to accommodate CJ Rush’s standard door wings, collapsing mechanism, and hardware
                     </li>
 
                     <li>
-                        <i class="ri-check-line"></i>
+                        <i class="ri-check-line rev-check"></i>
                         Manufacturing of speciality handrails and spindles made of glass, stainless steel or aluminum
                     </li>
 
                     <li>
-                        <i class="ri-check-line"></i>
+                        <i class="ri-check-line rev-check"></i>
                         Manufacturing of bollards, stanchions, and access control terminals
                     </li>
 
                     <li>
-                        <i class="ri-check-line"></i>
-                        Manufacture column covers, spandrels, balustrades, stairways, and railings to complete your prestige entranceway
+                        <i class="ri-check-line rev-check"></i>
+                        Manufacturing of column covers, spandrels, balustrades, stairways, and railings to complete your prestige entranceway
                     </li>
                 </ul>
             </div>

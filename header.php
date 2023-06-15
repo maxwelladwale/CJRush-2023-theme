@@ -59,12 +59,15 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="<?php echo site_url('/products-services');?>" class="nav-link" id="prod-serve">
-                                Product & Services
+                            <a href="" class="nav-link" id="prod-serve">
+                                Products & Services
                                 <i class="ri-arrow-down-s-line"></i>
                             </a>
 
                             <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="<?php echo site_url('/products-services');?>" class="nav-link">Overview</a>
+                                </li>
                                 <li class="nav-item">
                                     <a href="<?php echo site_url('/revolving-doors');?>" class="nav-link">Revolving Doors</a>
                                 </li>
