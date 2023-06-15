@@ -113,7 +113,7 @@ get_header();
                     <td>
                         <ul class="text-start">
                             <li>Banks</li>
-                            <li>Convention Centers</li>
+                            <li>Convention centers</li>
                             <li>Hotels</li>
                             <li>Corporate HQ</li>
                             <li>Airports</li>
@@ -126,7 +126,6 @@ get_header();
                             <li>Insurance buildings</li>
                             <li>Large financial institutions</li>
                             <li>Research labs</li>
-                            <li>Data centers</li>
                         </ul>
                     </td>
                 </tr>
@@ -168,7 +167,7 @@ get_header();
                 <section class="about-area pb-100">
                     <div class="container">
                         <div class="row align-items-center">
-                            <h5 class="features-h5">Unrivaled enhancements & customization surpassing all other providers</h5>
+                            <h4 class="features-h5">Unrivaled enhancements & customization surpassing all other providers</h4>
                             <div class="col-lg-6">
                                 <?php
                                 echo do_shortcode('[custom_accordion title="Power Assist" image="https://www.cjrush.jitudevops.com/wp-content/uploads/2023/05/Power-assist.png" class="accordion-group"] Provides an added boost to door rotation, enhancing accessibility for individuals with disabilities or the elderly. [/custom_accordion]');
@@ -246,11 +245,11 @@ get_header();
     <section class="rev-doors contemporary-doors ptb-100" id="contemporary_doors">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-stretch"">
+                <div class="col-lg-6 text-center">
                     <img class="classic-revolving-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Contemporary-revolving-door2.jpg" alt="Image">
                 </div>
 
-                <div class="col-lg-6 d-flex align-items-stretch"">
+                <div class="col-lg-6 d-flex align-items-stretch">
                     <div class="about-content revolving-div ml-15 d-flex flex-column align-items-start">
                         <div class="section-title">
                             <span>Contemporary revolving doors</span>
