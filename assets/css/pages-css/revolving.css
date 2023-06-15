@@ -6,7 +6,7 @@
     font-weight: 400 !important;
 }
 .revolving-div .section-title {
-    margin-bottom: 25px !important;
+    /* margin-bottom: 25px !important; */
     text-align: left !important;
 }
 .revolving-div .section-title span{
@@ -71,5 +71,8 @@ tr>td{
 @media only screen and (min-width: 1200px) {
     .rev-doors.contemporary-doors .container .row {
         flex-direction: row-reverse;
+    }
+	.sleek-pic{
+        margin-left: 80px;
     }
 }

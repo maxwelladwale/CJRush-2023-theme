@@ -318,7 +318,7 @@ get_header();
 						<img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/cjpledge.png" alt="Image">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 row green_pledge_text">
-						<div class="col-xs-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center">
+						<div class="col-xs-12 col-md-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
 							<h2 class="cgreen-h2">CJ RUSH GREEN PLEDGE</h2>
 							<p class="cgreen-p">Lowering your energy bill and saving our planet</p>
 						</div>
